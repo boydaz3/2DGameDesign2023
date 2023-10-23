@@ -13,6 +13,7 @@ public class Movement : MonoBehaviour
     private Rigidbody2D rigidBody;
     private ParticleSystem particleSystem;
     private ParticleSystem.EmitParams emitParams = new ParticleSystem.EmitParams();
+    private bool doEmitParticles = false;
     
     public float speed = 6f;
     void Start()
@@ -27,12 +28,25 @@ public class Movement : MonoBehaviour
         rigidBody = gameObject.GetComponent<Rigidbody2D>();
         particleSystem = gameObject.GetComponentInChildren<ParticleSystem>();
         particleSystem.Stop();
+        
+        InvokeRepeating("emitParticles", 0, 0.1f);
+        
     }
 
     private int add(int a, int b)
     {
         int sum = a + b;
         return sum;
+    }
+
+
+    private void emitParticles()
+    {
+        if (doEmitParticles)
+        {
+            particleSystem.Emit(emitParams, 2);
+        }
+        
     }
     
     void Update()
@@ -45,7 +59,11 @@ public class Movement : MonoBehaviour
             ParticleSystem.ShapeModule shape = particleSystem.shape;
             shape.rotation = new Vector3(329.38f, 270, 0.0f);
             rigidBody.AddForce(Vector2.right * speed * Time.deltaTime, ForceMode2D.Impulse);
-            particleSystem.Emit(emitParams, Mathf.RoundToInt(27*Time.deltaTime));
+            doEmitParticles = true;
+        }
+        else if (!Input.GetKey(KeyCode.A))
+        {
+            doEmitParticles = false;
         }
         
         
@@ -55,9 +73,12 @@ public class Movement : MonoBehaviour
             ParticleSystem.ShapeModule shape = particleSystem.shape;
             shape.rotation = new Vector3(221.8f, 270, 0.0f);
             rigidBody.AddForce(Vector2.left * speed * Time.deltaTime, ForceMode2D.Impulse);
-            particleSystem.Emit(emitParams, Mathf.RoundToInt(27 * Time.deltaTime));
+            doEmitParticles = true;
         }
-        
+        else if (!Input.GetKey(KeyCode.D))
+        {
+            doEmitParticles = false;
+        }
         
         
         
