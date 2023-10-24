@@ -1,42 +1,26 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    public int testInt = 5;
-    public int anotherInt = 10;
-    public string testStr = "Hello World!";
-    public float testFloat = 3.14f;
-    public bool testBool = true;
-
     private Rigidbody2D rigidBody;
-    private ParticleSystem particleSystem;
+    public ParticleSystem particleSystem;
+    public ParticleSystem particleSystemJump;
     private ParticleSystem.EmitParams emitParams = new ParticleSystem.EmitParams();
     private bool doEmitParticles = false;
     
     public float speed = 6f;
+    public float jumpSpeed = 5f;
     void Start()
     {
-        Debug.Log(testStr);
-
-        // Didn't use "if statement" because this is smaller.
-        Debug.Log(testBool?"the boolean is true":"the boolean is false");
-        
-        Debug.Log(add(testInt, anotherInt));
-
         rigidBody = gameObject.GetComponent<Rigidbody2D>();
-        particleSystem = gameObject.GetComponentInChildren<ParticleSystem>();
         particleSystem.Stop();
+        particleSystemJump.Stop();
         
         InvokeRepeating("emitParticles", 0, 0.1f);
         
-    }
-
-    private int add(int a, int b)
-    {
-        int sum = a + b;
-        return sum;
     }
 
 
@@ -51,8 +35,6 @@ public class Movement : MonoBehaviour
     
     void Update()
     {
-        // Bonus: I coded an actual movement script, unlike the tutorial :(
-        
         // Move Right
         if (Input.GetKey(KeyCode.D))
         {
@@ -80,7 +62,21 @@ public class Movement : MonoBehaviour
             doEmitParticles = false;
         }
         
+        // Jump
+        if (Input.GetButtonDown("Jump"))
+        {
+            if (rigidBody.velocity.y == 0f)
+            {
+                particleSystemJump.Emit(emitParams, 10);
+                rigidBody.AddForce(Vector2.up * jumpSpeed, ForceMode2D.Impulse);
+            }
+        }
         
-        
+        // if the player is above the ground, then do not emit walk particles
+        if (rigidBody.velocity.y != 0.0f)
+        {
+            doEmitParticles = false;
+        }
+
     }
 }
