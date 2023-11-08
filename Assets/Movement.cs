@@ -16,6 +16,8 @@ public class Movement : MonoBehaviour
     
     public float speed = 7f;
     public float jumpSpeed = 6.5f;
+
+    public Animator animator;
     void Start()
     {
         rigidBody = gameObject.GetComponent<Rigidbody2D>();
@@ -49,7 +51,10 @@ public class Movement : MonoBehaviour
             shape.rotation = new Vector3(329.38f, 270, 0.0f);
             // add force to player gameobject
             rigidBody.AddForce(Vector2.right * speed * Time.deltaTime, ForceMode2D.Impulse);
+
+            gameObject.transform.localScale = new Vector2(Math.Abs(transform.localScale.x), transform.localScale.y);
             // emit particles
+            animator.SetBool("isRunning", true);
             doEmitParticles = true;
         }
         else if (!Input.GetKey(KeyCode.A))
@@ -67,7 +72,10 @@ public class Movement : MonoBehaviour
             shape.rotation = new Vector3(221.8f, 270, 0.0f);
             // add force to player gameobject
             rigidBody.AddForce(Vector2.left * speed * Time.deltaTime, ForceMode2D.Impulse);
+            
+            gameObject.transform.localScale = new Vector2(-Math.Abs(transform.localScale.x), transform.localScale.y);
             // emit particles
+            animator.SetBool("isRunning", true);
             doEmitParticles = true;
         }
         else if (!Input.GetKey(KeyCode.D))
@@ -76,12 +84,18 @@ public class Movement : MonoBehaviour
             doEmitParticles = false;
         }
         
+        if (!Input.GetKey(KeyCode.D) && !Input.GetKey(KeyCode.A))
+        {
+            animator.SetBool("isRunning", false);
+        }
+        
         // Jump
         if (Input.GetButtonDown("Jump"))
         {
             // if player's y velocity is about 0, then emit jump particles and add force to gameobject
             if (Math.Abs(Math.Round(rigidBody.velocity.y)) == 0f)
             {
+                animator.SetTrigger("Jump");
                 particleSystemJump.Emit(emitParams, 10);
                 rigidBody.AddForce(Vector2.up * jumpSpeed, ForceMode2D.Impulse);
             }
@@ -92,6 +106,8 @@ public class Movement : MonoBehaviour
         {
             doEmitParticles = false;
         }
+        
+        
 
     }
     
