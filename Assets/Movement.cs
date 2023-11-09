@@ -1,4 +1,4 @@
-// Suvan Mangamuri
+ // Suvan Mangamuri
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -16,7 +16,7 @@ public class Movement : MonoBehaviour
     
     public float speed = 7f;
     public float jumpSpeed = 6.5f;
-
+ 
     public Animator animator;
     void Start()
     {
@@ -100,7 +100,8 @@ public class Movement : MonoBehaviour
                 rigidBody.AddForce(Vector2.up * jumpSpeed, ForceMode2D.Impulse);
             }
         }
-        
+
+       
         // if the player is above the ground, then do not emit walk particles
         if (rigidBody.velocity.y != 0.0f)
         {
