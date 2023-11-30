@@ -1,0 +1,963 @@
+fileFormatVersion: 2
+guid: 1d0308a336478794b880baddde77911f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Florian_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1001
+        width: 120
+        height: 240
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5de45d36cdfba4e870fe187d838b3b
+      internalID: -1972340312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Florian_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1001
+        width: 120
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba13f09236b2dc744b03b879aa4fc546
+      internalID: -1507417118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Florian_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1000
+        width: 120
+        height: 221
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e850892d7fc7404388b051db36937c0
+      internalID: 194823954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Florian_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1000
+        width: 120
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab670ef06b2659439104301864aae9d
+      internalID: -516510688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Florian_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 750
+        width: 120
+        height: 220
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b431ab8b52a175244bda015e9dbc10e2
+      internalID: -1851626489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Florian_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 750
+        width: 120
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3e49e05ad25fe4cbe8c3da6a9f2a07
+      internalID: -752228652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Florian_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 750
+        width: 120
+        height: 239
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2a5b918fbc17d438e8ce3b7fcc1e40
+      internalID: -2059358203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Florian_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 750
+        width: 120
+        height: 239
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c68f7836196e884ba63b0c3692a98d3
+      internalID: 1108657160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Florian_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 510
+        width: 130
+        height: 220
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102e4f707f164914e8c64be296bea81f
+      internalID: 607863269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Florian_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 500
+        width: 120
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da3d2c473a0f4c43b1513e2fe89a1ec
+      internalID: 1646253106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Florian_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 510
+        width: 120
+        height: 220
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d1091599f614949ae7d80fd50b61e9
+      internalID: 1812121393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Florian_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 500
+        width: 120
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8f151fb6e1f7b4ea2e29f08d0e9cb4
+      internalID: -812343648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Florian_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 270
+        width: 150
+        height: 220
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45cdb0dd860bb114ebfa0248132c1271
+      internalID: -32790357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Florian_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 260
+        width: 140
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dceb1883b4926214ebf5b77c4f21abdf
+      internalID: -128854976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Florian_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 250
+        width: 120
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20fe8f4c91a67841881174e999d22de
+      internalID: -1762767052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Florian_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 250
+        width: 120
+        height: 241
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52dbbcc10f34af1468d833033ebfbc3d
+      internalID: -448755972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Florian_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 220
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b35b2543084df409282ab0a158fa7f
+      internalID: 514209922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Florian_SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 130
+        height: 240
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f275ac779bc5f94eadedb13b26f9c9b
+      internalID: 261765908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Florian_SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 220
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b34c65e70f22246acf355f62f96b16
+      internalID: 306688800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Florian_SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 0
+        width: 130
+        height: 240
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cad90baf1502f846b4d62d9be0dc95d
+      internalID: 1341376519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Florian_SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 120
+        height: 240
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b27bc9a77332f4485ccdec6b8ddbbe
+      internalID: -845856321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Florian_SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 200
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5d6bb8d5dbeb945abb4893496e1409
+      internalID: -860095762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Florian_SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 200
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b3fd862aba83240a5b179bc063416c
+      internalID: 824106423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Florian_SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 190
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2434b43db0945054fb7a3787c1366ac5
+      internalID: -1626394202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Florian_SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 180
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df80237f39caaea449c950491d3a4762
+      internalID: -1481551089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Florian_SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 160
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12e7c6668ef7ab4887c8c8d2dcc4f45
+      internalID: 2014589293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Florian_SpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 130
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438216b3e81bad3478087bc8a4c954f5
+      internalID: -339377749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Florian_SpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 130
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf98c932f5bcff49863d0737633049a
+      internalID: 1029255191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Florian_SpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 120
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0635b1b83228c774ab4c8539c8c3e49b
+      internalID: 759688501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Florian_SpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 120
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b535ca419c20864ebcd906f4ace9ada
+      internalID: 1652151606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Florian_SpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 110
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a169f0267376243a50c0bf09b8096c
+      internalID: -807587605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Florian_SpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 90
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04bfe2627682dd946b724f88d4e85566
+      internalID: -705852252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Florian_SpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 60
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42988c1c7d51504f8a59eeaf3cee973
+      internalID: -630261590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Florian_SpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 60
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94e751f68b3f9044b6e5ea5d1f2cafe
+      internalID: 702489017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Florian_SpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 40
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3466db8bf28af094eb463cdb8867787b
+      internalID: -1217830634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Florian_SpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 30
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6daeb1f321ea38549a31df4c03402dd3
+      internalID: -1770639423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Florian_SpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 20
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83f52da23fa7784a8b181239c1dccae
+      internalID: 372902274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Florian_SpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 10
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda0bc1178239e0469f2eaae9a70fb8c
+      internalID: 1061804547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Florian_SpriteSheet_0: -1972340312
+      Florian_SpriteSheet_1: -1507417118
+      Florian_SpriteSheet_10: 1812121393
+      Florian_SpriteSheet_11: -812343648
+      Florian_SpriteSheet_12: -32790357
+      Florian_SpriteSheet_13: -128854976
+      Florian_SpriteSheet_14: -1762767052
+      Florian_SpriteSheet_15: -448755972
+      Florian_SpriteSheet_16: 514209922
+      Florian_SpriteSheet_17: 261765908
+      Florian_SpriteSheet_18: 306688800
+      Florian_SpriteSheet_19: 1341376519
+      Florian_SpriteSheet_2: 194823954
+      Florian_SpriteSheet_20: -845856321
+      Florian_SpriteSheet_21: -860095762
+      Florian_SpriteSheet_22: 824106423
+      Florian_SpriteSheet_23: -1626394202
+      Florian_SpriteSheet_24: -1481551089
+      Florian_SpriteSheet_25: 2014589293
+      Florian_SpriteSheet_26: -339377749
+      Florian_SpriteSheet_27: 1029255191
+      Florian_SpriteSheet_28: 759688501
+      Florian_SpriteSheet_29: 1652151606
+      Florian_SpriteSheet_3: -516510688
+      Florian_SpriteSheet_30: -807587605
+      Florian_SpriteSheet_31: -705852252
+      Florian_SpriteSheet_32: -630261590
+      Florian_SpriteSheet_33: 702489017
+      Florian_SpriteSheet_34: -1217830634
+      Florian_SpriteSheet_35: -1770639423
+      Florian_SpriteSheet_36: 372902274
+      Florian_SpriteSheet_37: 1061804547
+      Florian_SpriteSheet_4: -1851626489
+      Florian_SpriteSheet_5: -752228652
+      Florian_SpriteSheet_6: -2059358203
+      Florian_SpriteSheet_7: 1108657160
+      Florian_SpriteSheet_8: 607863269
+      Florian_SpriteSheet_9: 1646253106
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
