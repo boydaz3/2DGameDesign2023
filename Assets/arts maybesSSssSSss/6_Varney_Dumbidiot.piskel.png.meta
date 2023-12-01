@@ -1,0 +1,523 @@
+fileFormatVersion: 2
+guid: 0373c0b6178aaa04a8e3bcb5b43946ab
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 6_Varney_Dumbidiot.piskel_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2558
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d64f8008c5bc4343814aed6217ba84c
+      internalID: -1949364552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Varney_Dumbidiot.piskel_1
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2560
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f7b52788f28844f9584c01b50426cc
+      internalID: 761277607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Varney_Dumbidiot.piskel_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2240
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a7ce73e0e17dd49a35b915bd435c2a
+      internalID: -1206257952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Varney_Dumbidiot.piskel_3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2240
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd703268838cc3468e99ee6ca6ed01f
+      internalID: 1588226026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Varney_Dumbidiot.piskel_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8db6cc7caff8034d97353f88c91a508
+      internalID: -434417190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Varney_Dumbidiot.piskel_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1920
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71277f72c3726d449d61832087f1cc0
+      internalID: 1356080704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Varney_Dumbidiot.piskel_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be3a4dc21434c342af4a1b09367ca67
+      internalID: 1013870677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Varney_Dumbidiot.piskel_7
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1600
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2797c2f15703e458a0faecc661a4b6
+      internalID: -1391490637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Varney_Dumbidiot.piskel_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c99dde147626d40bf8dccfb6057c98
+      internalID: 1606051261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Varney_Dumbidiot.piskel_9
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1280
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe175bb1cb7b484387900a8fda86462
+      internalID: 1660697883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Varney_Dumbidiot.piskel_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5c7413e7014ef4d8187226cbcfdabc
+      internalID: 1718616514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Varney_Dumbidiot.piskel_11
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 960
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657dab6145cafa34eafd0ca1bc68cbbb
+      internalID: 1394466551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Varney_Dumbidiot.piskel_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39cd9b21829fcc7469e9c384ead5cf06
+      internalID: -1495335505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Varney_Dumbidiot.piskel_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9478c4565a7dd4e94c254e3899827e
+      internalID: -581445930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Varney_Dumbidiot.piskel_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaed90e6aa4cc0b4b9b0dd8aae20ac42
+      internalID: -295405507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Varney_Dumbidiot.piskel_15
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6907f4a01994474aa83faabc0048964
+      internalID: 1903982613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Varney_Dumbidiot.piskel_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44dd1a9369d30545bd85f3b715fe968
+      internalID: 1515550511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Varney_Dumbidiot.piskel_17
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a006c4fe6e107f04bbb7cd8bee87624b
+      internalID: -1993594483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      6_Varney_Dumbidiot.piskel_0: -1949364552
+      6_Varney_Dumbidiot.piskel_1: 761277607
+      6_Varney_Dumbidiot.piskel_10: 1718616514
+      6_Varney_Dumbidiot.piskel_11: 1394466551
+      6_Varney_Dumbidiot.piskel_12: -1495335505
+      6_Varney_Dumbidiot.piskel_13: -581445930
+      6_Varney_Dumbidiot.piskel_14: -295405507
+      6_Varney_Dumbidiot.piskel_15: 1903982613
+      6_Varney_Dumbidiot.piskel_16: 1515550511
+      6_Varney_Dumbidiot.piskel_17: -1993594483
+      6_Varney_Dumbidiot.piskel_2: -1206257952
+      6_Varney_Dumbidiot.piskel_3: 1588226026
+      6_Varney_Dumbidiot.piskel_4: -434417190
+      6_Varney_Dumbidiot.piskel_5: 1356080704
+      6_Varney_Dumbidiot.piskel_6: 1013870677
+      6_Varney_Dumbidiot.piskel_7: -1391490637
+      6_Varney_Dumbidiot.piskel_8: 1606051261
+      6_Varney_Dumbidiot.piskel_9: 1660697883
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
