@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: af527d8e72c258e44acfb0479d54e99c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 220
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 1_Berlett_SeargentSherbetAnimations_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1320
+        width: 220
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c73225e104c4fd47bf46c5d892eccb8
+      internalID: -1523714185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_Berlett_SeargentSherbetAnimations_1
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1320
+        width: 220
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da620e42ee857034a973492402f3fea5
+      internalID: -1498244531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_Berlett_SeargentSherbetAnimations_2
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 1320
+        width: 220
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade676dffd639e248b17a8d9705a984c
+      internalID: 362570394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_Berlett_SeargentSherbetAnimations_3
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1320
+        width: 220
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889224343e59425499f8c19ad1ee1df1
+      internalID: 2013741699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_Berlett_SeargentSherbetAnimations_4
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 1320
+        width: 220
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3c272be6756604cbc6b9f86c217bab
+      internalID: -1194810665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_Berlett_SeargentSherbetAnimations_5
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 990
+        width: 218
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c04e6f622e0334f8f8e50cb9856a30
+      internalID: 1383893702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_Berlett_SeargentSherbetAnimations_6
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 990
+        width: 220
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c963069b0572424480c474468bc8dd0
+      internalID: -1890653666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_Berlett_SeargentSherbetAnimations_7
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 990
+        width: 220
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5938cc12d5f2e5b438629ee2c6cf83ab
+      internalID: 738048831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_Berlett_SeargentSherbetAnimations_8
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 990
+        width: 220
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507306b602d351b4b9b0b8605d0235ab
+      internalID: -258885077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_Berlett_SeargentSherbetAnimations_9
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1020
+        width: 222
+        height: 291
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5991e72893949c547a13a2d882fff5c2
+      internalID: 1079728715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_Berlett_SeargentSherbetAnimations_10
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 990
+        width: 220
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019df855bac62ef45b4543ea8018a350
+      internalID: 2048488330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_Berlett_SeargentSherbetAnimations_11
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 660
+        width: 220
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1380a1563589238419c87408cc773621
+      internalID: 914467287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_Berlett_SeargentSherbetAnimations_12
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 660
+        width: 220
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ec61bd39522ce428567fd2f156909c
+      internalID: 1475603700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_Berlett_SeargentSherbetAnimations_13
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 660
+        width: 220
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c17dbf6b703390488a02f8e88f4596a
+      internalID: 1210936896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_Berlett_SeargentSherbetAnimations_14
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 660
+        width: 220
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7193b47017c9f949b4aa4374ab10831
+      internalID: -1860841160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_Berlett_SeargentSherbetAnimations_15
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 660
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6aba85a4598e948b82228f08c69752
+      internalID: -1204920852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_Berlett_SeargentSherbetAnimations_16
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 330
+        width: 220
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3cf927e9261cd48af8e78cda8ca1b3
+      internalID: -388548658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_Berlett_SeargentSherbetAnimations_17
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 330
+        width: 220
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6302f259c3900eb458a5df804d67a3ee
+      internalID: 1593715655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_Berlett_SeargentSherbetAnimations_18
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 330
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc08321455d49c43ab22baac6503f7a
+      internalID: 508237812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_Berlett_SeargentSherbetAnimations_19
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 330
+        width: 220
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c4d34cb36e6b348b2e7284cbf91da4
+      internalID: -1994872477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_Berlett_SeargentSherbetAnimations_20
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 330
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0eb1fce07ed1543a7bc3f9d984127c
+      internalID: -505807216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_Berlett_SeargentSherbetAnimations_21
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 220
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b8610b58eb79c429d9829cdff078f4
+      internalID: 1975039770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      1_Berlett_SeargentSherbetAnimations_0: -1523714185
+      1_Berlett_SeargentSherbetAnimations_1: -1498244531
+      1_Berlett_SeargentSherbetAnimations_10: 2048488330
+      1_Berlett_SeargentSherbetAnimations_11: 914467287
+      1_Berlett_SeargentSherbetAnimations_12: 1475603700
+      1_Berlett_SeargentSherbetAnimations_13: 1210936896
+      1_Berlett_SeargentSherbetAnimations_14: -1860841160
+      1_Berlett_SeargentSherbetAnimations_15: -1204920852
+      1_Berlett_SeargentSherbetAnimations_16: -388548658
+      1_Berlett_SeargentSherbetAnimations_17: 1593715655
+      1_Berlett_SeargentSherbetAnimations_18: 508237812
+      1_Berlett_SeargentSherbetAnimations_19: -1994872477
+      1_Berlett_SeargentSherbetAnimations_2: 362570394
+      1_Berlett_SeargentSherbetAnimations_20: -505807216
+      1_Berlett_SeargentSherbetAnimations_21: 1975039770
+      1_Berlett_SeargentSherbetAnimations_3: 2013741699
+      1_Berlett_SeargentSherbetAnimations_4: -1194810665
+      1_Berlett_SeargentSherbetAnimations_5: 1383893702
+      1_Berlett_SeargentSherbetAnimations_6: -1890653666
+      1_Berlett_SeargentSherbetAnimations_7: 738048831
+      1_Berlett_SeargentSherbetAnimations_8: -258885077
+      1_Berlett_SeargentSherbetAnimations_9: 1079728715
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
