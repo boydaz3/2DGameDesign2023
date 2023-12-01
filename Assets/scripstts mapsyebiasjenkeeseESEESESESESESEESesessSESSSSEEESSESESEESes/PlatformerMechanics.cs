@@ -62,3 +62,20 @@ public class PlatformerMechanics : MonoBehaviour
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// comment gyatt
