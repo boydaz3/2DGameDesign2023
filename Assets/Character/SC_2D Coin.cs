@@ -8,7 +8,7 @@ public class SC_2DCoin : MonoBehaviour
     public static int totalCoins = 0;
 
     // Reference to the TextMeshProUGUI object for displaying the +1 message
-    public TextMeshProUGUI coinTextPrefab;
+   // public TextMeshProUGUI coinTextPrefab;
 
     void Awake()
     {
@@ -32,16 +32,16 @@ public class SC_2DCoin : MonoBehaviour
             RectTransformUtility.ScreenPointToLocalPointInRectangle(canvasRect, Camera.main.WorldToScreenPoint(transform.position), Camera.main, out screenPos);
 
             // Instantiate the coinTextPrefab as a child of the Canvas
-            TextMeshProUGUI coinText = Instantiate(coinTextPrefab, canvasRect.transform);
+          //  TextMeshProUGUI coinText = Instantiate(coinTextPrefab, canvasRect.transform);
 
             // Set the anchored position of the coinText to the calculated screenPos
-            coinText.rectTransform.anchoredPosition = screenPos;
+          //  coinText.rectTransform.anchoredPosition = screenPos;
 
             // Set the text of the instantiated coinText to "+1"
-            coinText.text = "+1";
+          //  coinText.text = "+1";
 
             // Destroy the coinText object after a certain time (e.g., 1 second)
-            Destroy(coinText.gameObject, 1f);
+           // Destroy(coinText.gameObject, 1f);
 
             // Test: Print total number of coins
             //Debug.Log("You currently have " + SC_2DCoin.totalCoins + " Coins.");
