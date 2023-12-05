@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class Platform : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public float jumpForce = 10f;
