@@ -4,11 +4,23 @@ using UnityEngine;
 
 public class EnemyDestroy : MonoBehaviour
 {
-    private void OnTriggerEnter2D(Collider2D collision)
+    private Animator enemyAnimator;
+
+    void Start()
     {
-        if(collision.gameObject.tag == "Enemy")
+        enemyAnimator = transform.parent.GetComponent<Animator>();
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "Player")
         {
-            Destroy(collision.gameObject);
+            enemyAnimator.SetTrigger("Destroy");
+            Invoke("DestroyEnemy", 0.5f);
         }
+    }
+
+    public void DestroyEnemy()
+    {
+       Destroy(transform.parent.gameObject);
     }
 }
