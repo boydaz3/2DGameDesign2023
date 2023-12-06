@@ -15,8 +15,12 @@ using UnityEngine;
         if (collision.gameObject.tag == "Player")
         {
             enemyAnimator.SetTrigger("Destroy");
-            Destroy(transform.parent.gameObject);
+            Invoke("DestroyEnemy", 0.5f);
         }
     }
+
+    public void DestroyEnemy()
+    {
+        Destroy(transform.parent.gameObject);
+    }
 }
-//this is a comment mehehe

@@ -343,7 +343,7 @@ Transform:
   m_GameObject: {fileID: 763916564}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -15.27, y: 1.13, z: 0}
+  m_LocalPosition: {x: -15.27, y: 1.47, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -365,6 +365,7 @@ GameObject:
   - component: {fileID: 971981491}
   - component: {fileID: 971981492}
   - component: {fileID: 971981493}
+  - component: {fileID: 971981494}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -572,6 +573,18 @@ CapsuleCollider2D:
   m_Offset: {x: -0.023877144, y: -0.125355}
   m_Size: {x: 2.0453315, y: 2.2590938}
   m_Direction: 0
+--- !u!114 &971981494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971981484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 055dc6f5680507b46a363cd5efea1334, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1079715289
 GameObject:
   m_ObjectHideFlags: 0
@@ -597,7 +610,7 @@ Transform:
   m_GameObject: {fileID: 1079715289}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.39, y: 1.14, z: 0}
+  m_LocalPosition: {x: -7.39, y: 1.41, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -616,6 +629,7 @@ GameObject:
   - component: {fileID: 1244292478}
   - component: {fileID: 1244292481}
   - component: {fileID: 1244292480}
+  - component: {fileID: 1244292482}
   m_Layer: 0
   m_Name: Ememy
   m_TagString: Enemy
@@ -686,8 +700,8 @@ Transform:
   m_GameObject: {fileID: 1244292474}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.66, y: 1.26, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -12.3316, y: 1.6552, z: 0}
+  m_LocalScale: {x: 1.2627, y: 1.3162, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 411744230}
@@ -773,6 +787,28 @@ CapsuleCollider2D:
   m_Offset: {x: -0.30067015, y: -0.23485371}
   m_Size: {x: 1.4075155, y: 2.0302925}
   m_Direction: 0
+--- !u!95 &1244292482
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244292474}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 550461db038ddaf4ca0901f1f66afb56, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1254218484
 GameObject:
   m_ObjectHideFlags: 0
