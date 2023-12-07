@@ -10,6 +10,9 @@ public class platformmovement : MonoBehaviour
 
     private Rigidbody2D rb;
     // Start is called before the first frame update
+    public Animator animator;
+
+    float horizontalMovement = 0f;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -20,11 +23,15 @@ public class platformmovement : MonoBehaviour
     {
         //code for horizontal movement
         float horizontalInput = Input.GetAxis("Horizontal");
+        horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed;
         Vector2 moveVector = new Vector2(horizontalInput * moveSpeed, rb.velocity.y);
+
+        animator.SetFloat("speed" , Mathf.Abs(horizontalMovement));
 //player is jumping
 if(Input.GetButtonDown("Jump") && !isJumping){
     moveVector.y = jumpForce;
      isJumping = true;
+     animator.SetBool("isJumping" , true);
     }
     rb.velocity = moveVector;
 
@@ -37,9 +44,10 @@ if(Input.GetButtonDown("Jump") && !isJumping){
 }
 
 
-private void OnCollisionEnter2D(Collision2D collision){
+public void OnCollisionEnter2D(Collision2D collision){
     if (collision.gameObject.CompareTag("Ground")){
     isJumping = false;
+    animator.SetBool("isJumping" , false);
     }
 }
 }
