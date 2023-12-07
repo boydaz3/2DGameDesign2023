@@ -14,6 +14,7 @@ public class Enemy : MonoBehaviour
         if (Vector2.Distance(wayPoints[currentWayPoint].transform.position, transform.position) < .1f)
         {
             currentWayPoint++;
+            transform.Rotate(0, 180f, 0);
             if(currentWayPoint >= wayPoints.Length)
             {
                 currentWayPoint = 0;
