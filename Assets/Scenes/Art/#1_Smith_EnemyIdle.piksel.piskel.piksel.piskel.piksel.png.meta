@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 99a2906dd225ae94aa09573c42184124
+guid: 2225fa7a2fab36045b01ebdc9dd2b378
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 320
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: (n) 1_0
+      name: '#1_Smith_EnemyIdle.piksel.piskel.piksel.piskel.piksel_0'
       rect:
         serializedVersion: 2
         x: 0
-        y: 525
-        width: 1324
-        height: 174
+        y: 320
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86441447094b0c84ea1156d7e64865cd
-      internalID: -1709317328
+      spriteID: 6b24fcf3327c6d34a938caff86b9a9a1
+      internalID: -32095505
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: (n) 1_1
+      name: '#1_Smith_EnemyIdle.piksel.piskel.piksel.piskel.piksel_1'
       rect:
         serializedVersion: 2
-        x: 0
-        y: 351
-        width: 1324
-        height: 174
+        x: 320
+        y: 320
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ef78af76084f8e41b81df6182eecfbc
-      internalID: 974407022
+      spriteID: 5b6dd76e471cdac4d89fa35a33b61e0e
+      internalID: 1558395055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: (n) 1_2
+      name: '#1_Smith_EnemyIdle.piksel.piskel.piksel.piskel.piksel_2'
       rect:
         serializedVersion: 2
         x: 0
-        y: 177
-        width: 1324
-        height: 174
+        y: 0
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,29 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0386339afd6658a45bd1c14b260ac74b
-      internalID: -1821425220
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: (n) 1_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 3
-        width: 1324
-        height: 174
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bd2c33e843821e74d967d2410b2e48b4
-      internalID: 1222984378
+      spriteID: e53779d20c8d2e240bcea4469cc80046
+      internalID: 716379695
       vertices: []
       indices: 
       edges: []
@@ -204,10 +183,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      (n) 1_0: -1709317328
-      (n) 1_1: 974407022
-      (n) 1_2: -1821425220
-      (n) 1_3: 1222984378
+      '#1_Smith_EnemyIdle.piksel.piskel.piksel.piskel.piksel_0': -32095505
+      '#1_Smith_EnemyIdle.piksel.piskel.piksel.piskel.piksel_1': 1558395055
+      '#1_Smith_EnemyIdle.piksel.piskel.piksel.piskel.piksel_2': 716379695
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
