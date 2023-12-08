@@ -26,7 +26,7 @@ public class platformmovement : MonoBehaviour
         horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed;
         Vector2 moveVector = new Vector2(horizontalInput * moveSpeed, rb.velocity.y);
 
-        animator.SetFloat("speed" , Mathf.Abs(horizontalMovement));
+        animator.SetFloat("Speed" , Mathf.Abs(horizontalMovement));
 //player is jumping
 if(Input.GetButtonDown("Jump") && !isJumping){
     moveVector.y = jumpForce;
