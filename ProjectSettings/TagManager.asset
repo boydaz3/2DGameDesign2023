@@ -49,11 +49,14 @@ TagManager:
   - name: Foreground
     uniqueID: 3001142339
     locked: 0
-  - name: Ground
-    uniqueID: 3178101167
+  - name: NPCs
+    uniqueID: 4028295981
     locked: 0
   - name: Player
     uniqueID: 1739273295
+    locked: 0
+  - name: Ground
+    uniqueID: 3178101167
     locked: 0
   - name: Grass
     uniqueID: 1783969803

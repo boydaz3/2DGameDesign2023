@@ -1,0 +1,720 @@
+fileFormatVersion: 2
+guid: 62d0b256c0875144896c31b1cedcfa99
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 0
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638378972621332879
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Elias Animations_Frame_0
+    originalName: 
+    pivot: {x: 0.5217391, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 91
+      width: 23
+      height: 46
+    spriteID: c259620ebc29d7242ac0d0de9ad95f39
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 91}
+  - name: Elias Animations_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 97
+      y: 91
+      width: 22
+      height: 46
+    spriteID: 6ba4130676318a749ac2410e571382be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 97, y: 91}
+  - name: Elias Animations_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 127
+      y: 91
+      width: 22
+      height: 46
+    spriteID: 0ccd8bc43c23433448bc2d2f341c4044
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 127, y: 91}
+  - name: Elias Animations_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 157
+      y: 91
+      width: 22
+      height: 46
+    spriteID: 738162cdba45d29498ca1cd1a5894aeb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 157, y: 91}
+  - name: Elias Animations_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 187
+      y: 91
+      width: 22
+      height: 46
+    spriteID: 861f9996ecce90d44941c9f2356493ae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 187, y: 91}
+  - name: Elias Animations_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 217
+      y: 91
+      width: 22
+      height: 46
+    spriteID: 098860a7b57cf1543b6cf8ebe10d0a72
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 217, y: 91}
+  - name: Elias Animations_Frame_6
+    originalName: 
+    pivot: {x: 0.47826087, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 35
+      y: 91
+      width: 23
+      height: 46
+    spriteID: 67b7dbc83ca6b414c8e64b68825aa916
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 35, y: 91}
+  - name: Elias Animations_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 145
+      width: 22
+      height: 45
+    spriteID: 98c7687db04402c4782969ce80fc6647
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 145}
+  - name: Elias Animations_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 34
+      y: 145
+      width: 22
+      height: 45
+    spriteID: 5c021e8b84f91474199a2837238f89ac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 34, y: 145}
+  - name: Elias Animations_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 145
+      width: 22
+      height: 45
+    spriteID: 27bf988d85363b74fb57df1443470465
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 64, y: 145}
+  - name: Elias Animations_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 94
+      y: 145
+      width: 22
+      height: 45
+    spriteID: 4e94955f50a798e4aac3d0217bc9bf0b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 94, y: 145}
+  - name: Elias Animations_Frame_11
+    originalName: 
+    pivot: {x: 0.5217391, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 91
+      width: 23
+      height: 45
+    spriteID: ee5e8bf6f543e5d408bc5e3c5627c115
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 91}
+  - name: Elias Animations_Frame_12
+    originalName: 
+    pivot: {x: 0.6086957, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 48
+      width: 46
+      height: 35
+    spriteID: 658e5d8d2ea8d574d9052c6715d5d0dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 48}
+  - name: Elias Animations_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 48
+      width: 38
+      height: 35
+    spriteID: 92cf704c5e1e59046b2054294e5dbb29
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 48}
+  - name: Elias Animations_Frame_14
+    originalName: 
+    pivot: {x: 0.47368422, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 153
+      y: 48
+      width: 38
+      height: 35
+    spriteID: 22f4b81da5a086b43a995c7918d0d2c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 153, y: 48}
+  - name: Elias Animations_Frame_15
+    originalName: 
+    pivot: {x: 0.5121951, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 58
+      y: 48
+      width: 41
+      height: 35
+    spriteID: b59550e6b69368e4cb97665beab39335
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 58, y: 48}
+  - name: Elias Animations_Frame_16
+    originalName: 
+    pivot: {x: 0.59574467, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 181
+      y: 4
+      width: 47
+      height: 35
+    spriteID: aab6511653bf64642bd5016fd5db07b7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 181, y: 4}
+  - name: Elias Animations_Frame_17
+    originalName: 
+    pivot: {x: 0.59999996, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 123
+      y: 4
+      width: 50
+      height: 35
+    spriteID: 198e56a6d538b754d9cf4f0afdde7f1d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 123, y: 4}
+  - name: Elias Animations_Frame_18
+    originalName: 
+    pivot: {x: 0.5740741, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 54
+      height: 36
+    spriteID: 6c0f2740b89872348be05d3c15ed4614
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Elias Animations_Frame_19
+    originalName: 
+    pivot: {x: 0.5510204, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 4
+      width: 49
+      height: 36
+    spriteID: 03d03fd0179a3dc4b89015d93350a158
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 4}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1761394279
+    name: Elias Animations
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Elias Animations_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 20
+        y: 0
+        width: 23
+        height: 46
+      spriteId: c259620ebc29d7242ac0d0de9ad95f39
+    - name: Elias Animations_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 21
+        y: 0
+        width: 22
+        height: 46
+      spriteId: 6ba4130676318a749ac2410e571382be
+    - name: Elias Animations_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 21
+        y: 0
+        width: 22
+        height: 46
+      spriteId: 0ccd8bc43c23433448bc2d2f341c4044
+    - name: Elias Animations_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 21
+        y: 0
+        width: 22
+        height: 46
+      spriteId: 738162cdba45d29498ca1cd1a5894aeb
+    - name: Elias Animations_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 21
+        y: 0
+        width: 22
+        height: 46
+      spriteId: 861f9996ecce90d44941c9f2356493ae
+    - name: Elias Animations_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 21
+        y: 0
+        width: 22
+        height: 46
+      spriteId: 098860a7b57cf1543b6cf8ebe10d0a72
+    - name: Elias Animations_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 21
+        y: 0
+        width: 23
+        height: 46
+      spriteId: 67b7dbc83ca6b414c8e64b68825aa916
+    - name: Elias Animations_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 21
+        y: 0
+        width: 22
+        height: 45
+      spriteId: 98c7687db04402c4782969ce80fc6647
+    - name: Elias Animations_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 21
+        y: 0
+        width: 22
+        height: 45
+      spriteId: 5c021e8b84f91474199a2837238f89ac
+    - name: Elias Animations_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 21
+        y: 0
+        width: 22
+        height: 45
+      spriteId: 27bf988d85363b74fb57df1443470465
+    - name: Elias Animations_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 21
+        y: 0
+        width: 22
+        height: 45
+      spriteId: 4e94955f50a798e4aac3d0217bc9bf0b
+    - name: Elias Animations_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 20
+        y: 0
+        width: 23
+        height: 45
+      spriteId: ee5e8bf6f543e5d408bc5e3c5627c115
+    - name: Elias Animations_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 4
+        y: 0
+        width: 46
+        height: 35
+      spriteId: 658e5d8d2ea8d574d9052c6715d5d0dc
+    - name: Elias Animations_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 13
+        y: 0
+        width: 38
+        height: 35
+      spriteId: 92cf704c5e1e59046b2054294e5dbb29
+    - name: Elias Animations_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 14
+        y: 0
+        width: 38
+        height: 35
+      spriteId: 22f4b81da5a086b43a995c7918d0d2c9
+    - name: Elias Animations_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 11
+        y: 0
+        width: 41
+        height: 35
+      spriteId: b59550e6b69368e4cb97665beab39335
+    - name: Elias Animations_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 4
+        y: 0
+        width: 47
+        height: 35
+      spriteId: aab6511653bf64642bd5016fd5db07b7
+    - name: Elias Animations_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 2
+        y: 0
+        width: 50
+        height: 35
+      spriteId: 198e56a6d538b754d9cf4f0afdde7f1d
+    - name: Elias Animations_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 1
+        y: 0
+        width: 54
+        height: 36
+      spriteId: 6c0f2740b89872348be05d3c15ed4614
+    - name: Elias Animations_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 5
+        y: 0
+        width: 49
+        height: 36
+      spriteId: 03d03fd0179a3dc4b89015d93350a158
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 80}
