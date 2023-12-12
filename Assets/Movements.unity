@@ -376,7 +376,7 @@ GameObject:
   - component: {fileID: 135048632}
   m_Layer: 0
   m_Name: ' Ttilemap2'
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -493,6 +493,7 @@ GameObject:
   m_Component:
   - component: {fileID: 917541650}
   - component: {fileID: 917541649}
+  - component: {fileID: 917541651}
   m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
@@ -541,7 +542,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: affd7e74f3f7b465ea861fbf1651b73b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7c6b048f9be3b8c4c94eaa095d676564, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -561,12 +562,26 @@ Transform:
   m_GameObject: {fileID: 917541648}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.506859, y: -2.8945942, z: 0.04366456}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 3.5315, y: 0.2144, z: 0.04366456}
+  m_LocalScale: {x: 34.090435, y: 24.718452, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &917541651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917541648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f0bd8c2a386e404bbdaaef8943fece7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 1279520239}
+  prallaxEffect: 0.5
 --- !u!1 &978513746
 GameObject:
   m_ObjectHideFlags: 0
@@ -2637,7 +2652,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1609630444, guid: f34775ee7d110704f98d7e5900b694f4, type: 3}
+  m_Sprite: {fileID: 243457211, guid: 315c921f1eac9754598676620d3e608d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2726,7 +2741,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.32, y: 0.32}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
