@@ -202,7 +202,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Trees for backy_0: 5504511123925187430
+      Trees for backy_1: -1548192683803249720
+      Trees for backy_2: 445788085621674278
+      Trees for backy_3: -5012725913525206507
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

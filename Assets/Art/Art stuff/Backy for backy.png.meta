@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Backy for backy_0: -7604714751110448031
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
