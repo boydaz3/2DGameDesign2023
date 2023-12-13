@@ -1,0 +1,655 @@
+fileFormatVersion: 2
+guid: 85af6b201c5d06e4d9ee4e9b402e1487
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a937df9e77224494aaec8d913beb1f5e
+      internalID: -1611274500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633efde06b452fc478e54b20f303b564
+      internalID: 1015705244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5811d0e3681b2342987e7767610235e
+      internalID: 334857831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d759f00897e0c64a93284c9b41ce49d
+      internalID: -1667520402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d39113bb12afb418fcb7bfb70f4b56
+      internalID: 280982349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7ac1718b101a241ad10d432b3ab0ad
+      internalID: 209406229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2a2259bdd2f4f44a3e7ca9ab6f417c
+      internalID: 1365672464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5b26d58b7cf6f4bbdca97c645ddc89
+      internalID: -1793237241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e517482f3b34efc4c95073a721829e61
+      internalID: 2046600859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb643f968d1e15b4a9c4e35c510af323
+      internalID: -1933517095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb9df92453ae1144a045daae5bdb740
+      internalID: 204731799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc012f6927b111445b15a3c354367853
+      internalID: -1846681945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c67ac331fa3c444a2e0630b03ccdce
+      internalID: 1787876138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51996b685cb068043839a5bc35445db1
+      internalID: -344225848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78f7a20b1636424c93c08296a2a7454
+      internalID: -799970221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc713b067a65474a92fbc88a42e56d7
+      internalID: -1733774131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb5f34c4438511498b637234fbcf6f7
+      internalID: -485924907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3065cea98f503a4fb8f09113cce8894
+      internalID: -1786844018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_18
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c8686f609afdb489d9085ac0584538
+      internalID: -1138954077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_19
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af4a0839e38a014b9988081fbe79a34
+      internalID: -1084262107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ebce3846b51ce240ae24d2dae0db5ba
+      internalID: -2094270875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_21
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c205fffd6978494681384ac0258e4a1
+      internalID: 1484149710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4c869ba921f1d48856a7941a3cc98a
+      internalID: -4544957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_23
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2de5fd683d15a54f8c5619f6241de80
+      internalID: -272941597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_0: -1611274500
+      new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_1: 1015705244
+      new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_10: 204731799
+      new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_11: -1846681945
+      new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_12: 1787876138
+      new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_13: -344225848
+      new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_14: -799970221
+      new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_15: -1733774131
+      new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_16: -485924907
+      new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_17: -1786844018
+      new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_18: -1138954077
+      new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_19: -1084262107
+      new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_2: 334857831
+      new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_20: -2094270875
+      new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_21: 1484149710
+      new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_22: -4544957
+      new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_23: -272941597
+      new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_3: -1667520402
+      new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_4: 280982349
+      new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_5: 209406229
+      new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_6: 1365672464
+      new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_7: -1793237241
+      new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_8: 2046600859
+      new enemy use this one!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_9: -1933517095
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
