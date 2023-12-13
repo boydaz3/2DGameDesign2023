@@ -15,7 +15,7 @@ using UnityEngine;
         if (collision.gameObject.tag == "Player")
         {
             enemyAnimator.SetTrigger("Destroy");
-            Invoke("DestroyEnemy", 0.5f);
+            Invoke("DestroyEnemy", 0f);
         }
     }
 
