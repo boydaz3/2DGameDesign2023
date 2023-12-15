@@ -1098,6 +1098,7 @@ GameObject:
   - component: {fileID: 1499378062}
   - component: {fileID: 1499378064}
   - component: {fileID: 1499378063}
+  - component: {fileID: 1499378065}
   m_Layer: 0
   m_Name: Background (2)
   m_TagString: Untagged
@@ -1188,6 +1189,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1499378065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499378061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aae2edf8f756154491a4d295d379921, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 432147497}
+  parallaxEffect: 0.5
 --- !u!1 &1525959301
 GameObject:
   m_ObjectHideFlags: 0
@@ -1403,6 +1418,7 @@ GameObject:
   - component: {fileID: 1610761774}
   - component: {fileID: 1610761776}
   - component: {fileID: 1610761775}
+  - component: {fileID: 1610761777}
   m_Layer: 0
   m_Name: Background (1)
   m_TagString: Untagged
@@ -1493,6 +1509,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1610761777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610761773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aae2edf8f756154491a4d295d379921, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 432147497}
+  parallaxEffect: 0.5
 --- !u!1 &1644292080
 GameObject:
   m_ObjectHideFlags: 0
@@ -2510,6 +2540,7 @@ GameObject:
   - component: {fileID: 2131594845}
   - component: {fileID: 2131594844}
   - component: {fileID: 2131594846}
+  - component: {fileID: 2131594847}
   m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
@@ -2602,6 +2633,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 432147497}
   parallaxEffect: 0.25
+--- !u!114 &2131594847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2131594843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aae2edf8f756154491a4d295d379921, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 432147497}
+  parallaxEffect: 0.5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
