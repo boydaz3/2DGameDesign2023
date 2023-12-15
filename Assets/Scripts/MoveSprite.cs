@@ -36,13 +36,16 @@ public class MoveSprite : MonoBehaviour
     public AudioClip dash;
     public AudioClip land;
     public AudioClip walk;
+    public static MoveSprite instance;
 
     // Update is called once per frame
     private void Start()
     {
+        instance = this;
         sr = this.GetComponent<SpriteRenderer>();
         trail.emitting = false;
     }
+   
     void FixedUpdate()
     {
         GroundCheck();
@@ -80,7 +83,7 @@ public class MoveSprite : MonoBehaviour
             rb.velocity += wallPoint.x * Vector2.right;
             rb.velocity /= 1.02f;
         }
-        else rb.AddForce(moveX * transform.right * moveSpeedAir - (new Vector3(rb.velocity.x, 0) * 2.4f));
+        else rb.AddForce(transform.right*moveX * moveSpeedAir - (new Vector3(rb.velocity.x, 0) * 2.4f));
         if (isGrounded && Mathf.Abs(moveX) > 0.1f)
         {
             playerAudio.clip = walk;
@@ -104,7 +107,7 @@ public class MoveSprite : MonoBehaviour
         animator.SetBool("IsDashing", isDashing1);
         if (moveX != 0 || wallPoint.x != 0) sr.flipX = moveX + (wallPoint.x * 10) < 0;
     }
-    private void Jump()
+    public void Jump()
     {
             if (isWallSliding)
             {
@@ -136,7 +139,7 @@ public class MoveSprite : MonoBehaviour
         sr.color = new Vector4(1,1,1,0.3f);
         trail.emitting = true;
         GameObject dashPartic1 = Instantiate(dashPartic,this.transform.position,this.transform.rotation);
-        Destroy(dashPartic1, dashPartic1.GetComponent<ParticleSystem>().startLifetime);
+        Destroy(dashPartic1, dashPartic1.GetComponent<ParticleSystem>().main.startLifetime.constant);
         playerAudio.clip = dash;
         playerAudio.Play();
         yield return new WaitForSeconds(0.2f);

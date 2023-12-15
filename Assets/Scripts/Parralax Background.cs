@@ -29,12 +29,7 @@ public class ParralaxBackground : MonoBehaviour
         if (Mathf.Abs(cameraTransform.position.x - transform.position.x)*0.25f>= textureUnitSizeX)
         {
             float offsetPositionX = (cameraTransform.position.x - transform.position.x) % textureUnitSizeX;
-            Debug.Log(offsetPositionX);
-            Debug.Log(textureUnitSizeX);
-            Debug.Log(cameraTransform.position);
-            Debug.Log(transform.position);
             transform.position = new Vector3(cameraTransform.position.x +offsetPositionX, transform.position.y);
-            Debug.Log(transform.position);
         }
     }
 }
