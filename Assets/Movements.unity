@@ -658,6 +658,7 @@ GameObject:
   - component: {fileID: 978513752}
   - component: {fileID: 978513751}
   - component: {fileID: 978513750}
+  - component: {fileID: 978513753}
   m_Layer: 0
   m_Name: Tilemap
   m_TagString: Untagged
@@ -2543,6 +2544,27 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
+--- !u!95 &978513753
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978513746}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8657b49b8852b414eb19c14ada794c79, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1254566042
 GameObject:
   m_ObjectHideFlags: 0
@@ -2854,6 +2876,7 @@ GameObject:
   - component: {fileID: 1387720522}
   - component: {fileID: 1387720521}
   - component: {fileID: 1387720523}
+  - component: {fileID: 1387720524}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -3071,6 +3094,18 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.32000002, y: 0.32}
   m_Direction: 0
+--- !u!114 &1387720524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387720515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46c2f7beed7fb3b478d3e6961470305f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1670107362
 GameObject:
   m_ObjectHideFlags: 0

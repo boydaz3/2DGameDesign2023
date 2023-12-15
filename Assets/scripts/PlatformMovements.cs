@@ -22,7 +22,7 @@ public class PlatformerMovements : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //coe for horiznotal movemnt
+        //code for horiznotal movemnt
         float horizontalInput = Input.GetAxis("Horizontal");
         horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed;
         Vector2 moveVector = new Vector2(horizontalInput * moveSpeed, rb.velocity.y);
