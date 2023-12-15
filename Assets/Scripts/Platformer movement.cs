@@ -41,20 +41,20 @@ public class NewBehaviourScript : MonoBehaviour
 
         rb.velocity = moveVector;
 
-        if(horizontalInput < 0)
+        if (horizontalInput < 0)
         {
             transform.localScale = new Vector3(1, 1, 1);
-        }else if(horizontalInput > 0){
+        } else if (horizontalInput > 0) {
             transform.localScale = new Vector3(-1, 1, 1);
         }
 
-        if(rb.velocity.magnitude > maxVelocity)
+        if (rb.velocity.magnitude > maxVelocity)
         {
             rb.velocity = Vector2.ClampMagnitude(rb.velocity, maxVelocity);
         }
     }
 
-    public void OnCollisionEnter2D(Collision2D collision)
+     public void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
@@ -63,6 +63,3 @@ public class NewBehaviourScript : MonoBehaviour
         }
     }
 }
-
-
-
