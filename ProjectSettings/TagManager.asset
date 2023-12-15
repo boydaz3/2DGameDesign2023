@@ -7,6 +7,9 @@ TagManager:
   - Ground
   - Enemy
   - DeathZone
+  - Level2Start
+  - MainCamera2
+  - Win
   layers:
   - Default
   - TransparentFX

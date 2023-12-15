@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class updatedParallax : MonoBehaviour
 {
@@ -12,8 +13,8 @@ public class updatedParallax : MonoBehaviour
     {
         startPos = transform.position.x;
         length = GetComponent<SpriteRenderer>().bounds.size.x;
-    }
 
+    }
     // Update is called once per frame
     void Update()
     {
