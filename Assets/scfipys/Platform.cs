@@ -6,14 +6,17 @@ using UnityEngine;
 
 public class Platform : MonoBehaviour
 {
-    public float moveSpeed = 5f;
-    public float jumpForce = 10f;
+    public float moveSpeed = 10f;
+    public float jumpForce = 20f;
     private Boolean isJumping = false;
     private Rigidbody2D rb;
 
     public Animator animator;
 
     float horizontalMovement =0f;
+
+    public float maxVelocity = 20F;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -46,6 +49,10 @@ public class Platform : MonoBehaviour
                 transform.localScale = new Vector3(1, 1, 1);
        }   
     
+       if(rb.velocity.magnitude > maxVelocity)
+     {
+        rb.velocity = Vector2.ClampMagnitude(rb.velocity, maxVelocity);
+     }
     }
 
     public void OnCollisionEnter2D(Collision2D collision){
