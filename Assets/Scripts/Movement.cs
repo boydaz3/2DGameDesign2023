@@ -2,22 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class movement : MonoBehaviour
 {
     private Rigidbody2D rb;
-    public float moveSpeed = 5.0f;
+    public float moveSpeed = 5.0f;  
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>(); 
     }
 
     // Update is called once per frame
     void Update()
     {
-        float horizontalInput = Input.GetAxis("Horizontal");
-        float verticalInput = Input.GetAxis("Vertical");
+        float horizontalInput = Input.GetAxis("horizonltal");
+        float verticalInput = Input.GetAxis("vertical");
 
-        rb.velocity = new Vector2(horizontalInput, verticalInput) * moveSpeed; 
+        rb.velocity = new Vector2(horizontalInput, verticalInput) * moveSpeed;
     }
 }
