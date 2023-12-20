@@ -14,7 +14,6 @@ public class Platformer : MonoBehaviour
     public Rigidbody2D rb;
     private Animator anim;
 
-    public Transform respawnPoint; // Add this variable to store the respawn point
 
     // Start is called before the first frame update
     void Start()
@@ -22,8 +21,6 @@ public class Platformer : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
 
-        // Set the initial respawn point to the player's starting position
-        respawnPoint = transform;
     }
 
     public bool facingRight = true;
@@ -89,22 +86,8 @@ public class Platformer : MonoBehaviour
             anim.SetBool("jumped", true);
         }
 
-        // Check for death
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            Die();
-        }
     }
-
-    void Die()
-    {
-        // Play death animation
-        Debug.Log("Died");
-        anim.SetTrigger("hurt");
-        // Reset the player's position to the respawn point
-        transform.position = respawnPoint.position;
-    }
-
+    
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
@@ -113,15 +96,8 @@ public class Platformer : MonoBehaviour
             isGrounded = true;
         }
 
-        if (collision.gameObject.CompareTag("Hurt"))
-        {
-            Debug.Log("Touched spikes");
-            anim.SetTrigger("hurt");
-
-            // Call the Die() function when the player touches spikes
-            Die();
-        }
     }
+    
     private void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
