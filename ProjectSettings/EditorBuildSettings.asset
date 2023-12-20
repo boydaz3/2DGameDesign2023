@@ -8,5 +8,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Ma game.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Start screen.unity
+    guid: 420545029b7a5854798df218a1272caf
+  - enabled: 1
+    path: Assets/Scenes/Victory screen.unity
+    guid: c07f02fc56ff95040a14f361b9841a80
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

@@ -48,7 +48,7 @@ public class NewBehaviourScript : MonoBehaviour
             transform.localScale = new Vector3(-1, 1, 1);
         }
 
-        if (rb.velocity.magnitude > maxVelocity)
+        if (rb.velocity.magnitude < maxVelocity)
         {
             rb.velocity = Vector2.ClampMagnitude(rb.velocity, maxVelocity);
         }

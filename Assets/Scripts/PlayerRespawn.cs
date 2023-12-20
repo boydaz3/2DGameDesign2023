@@ -32,6 +32,11 @@ public class PlayerRespawn : MonoBehaviour
                 Debug.Log("Game Over");
             }
         }
+        if (collision.gameObject.CompareTag("Goal"))
+        {
+            Debug.Log("Player has reached the flag");
+            SceneManager.LoadScene("Start screen");
+        }
     }
     private bool IsCollisionFromTop(Collision2D collision)
     {
