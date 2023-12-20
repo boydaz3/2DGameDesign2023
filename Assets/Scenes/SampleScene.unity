@@ -8527,6 +8527,7 @@ GameObject:
   - component: {fileID: 247946103}
   - component: {fileID: 247946102}
   - component: {fileID: 247946105}
+  - component: {fileID: 247946106}
   m_Layer: 0
   m_Name: Phillp (Protangonist)
   m_TagString: Player
@@ -8619,7 +8620,7 @@ Transform:
   m_GameObject: {fileID: 247946097}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 103.3, y: 1.59, z: 0}
+  m_LocalPosition: {x: -6.31, y: 1.59, z: 0}
   m_LocalScale: {x: 3.7999098, y: 3.7999098, z: 3.7999098}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8707,6 +8708,18 @@ CapsuleCollider2D:
   m_Offset: {x: 0.0069811204, y: -0.14694561}
   m_Size: {x: 0.1980579, y: 0.5061089}
   m_Direction: 0
+--- !u!114 &247946106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247946097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2269edb3bf3d2ed488c84a8d386901ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &252790787
 GameObject:
   m_ObjectHideFlags: 0
@@ -11963,6 +11976,75 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &263086751
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 263086752}
+  - component: {fileID: 263086753}
+  m_Layer: 0
+  m_Name: Hit Box
+  m_TagString: Hurt
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &263086752
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263086751}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 962061827}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &263086753
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263086751}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.21255033, y: -0.16161641}
+  m_Size: {x: 0.7499893, y: 0.7499893}
+  m_Direction: 0
 --- !u!1 &364077375
 GameObject:
   m_ObjectHideFlags: 0
@@ -12311,7 +12393,7 @@ GameObject:
   - component: {fileID: 962061832}
   m_Layer: 0
   m_Name: Elias (Antagonist)
-  m_TagString: Enemy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12422,6 +12504,7 @@ Transform:
   m_Children:
   - {fileID: 364077376}
   - {fileID: 1863859447}
+  - {fileID: 263086752}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &962061828
@@ -12440,6 +12523,7 @@ MonoBehaviour:
   wayPoints:
   - {fileID: 635083574}
   - {fileID: 2113904939}
+  canMoveOnX: 1
 --- !u!50 &962061830
 Rigidbody2D:
   serializedVersion: 4
@@ -12602,7 +12686,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.41008404, y: -0.4089839}
+  m_Offset: {x: 0.36770007, y: -0.4089839}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -12612,7 +12696,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.55803317, y: 0.058897138}
+  m_Size: {x: 0.47326523, y: 0.058897138}
   m_EdgeRadius: 0
 --- !u!114 &1863859449
 MonoBehaviour:

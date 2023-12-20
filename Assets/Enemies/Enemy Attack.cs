@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class EnemyAttack : MonoBehaviour
 {
     public float freezeDuration = 1.5f;
@@ -13,14 +13,23 @@ public class EnemyAttack : MonoBehaviour
         enemyAnimator = transform.parent.GetComponent<Animator>();
         
     }
-    private void OnTriggerEnter2D(Collider2D collision){
+    private IEnumerator OnTriggerEnter2D(Collider2D collision){
 
         if(collision.gameObject.tag == "Player"){
             GetComponentInParent<Enemies>().StopMovementOnX();
             enemyAnimator.SetTrigger("Attack");
-            // WaitForSeconds(freezeDuration);
-            // GetComponentInParent<Enemies>().StartMovementOnX();
+            yield return new WaitForSeconds (1.2f);
+            if(collision.gameObject.tag == "Player"){
+                RestartLevel();
+            }
+            yield return new WaitForSeconds (0.3f);
+            GetComponentInParent<Enemies>().StartMovementOnX();
         }
+    }
+
+    private void RestartLevel (){
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
 }
