@@ -20,6 +20,9 @@ public class Movement : MonoBehaviour
     public float velocityCap = 15f;
  
     public Animator animator;
+    
+    private float currentVelocity;
+    
     void Start()
     {
         rigidBody = gameObject.GetComponent<Rigidbody2D>();
@@ -44,6 +47,24 @@ public class Movement : MonoBehaviour
     
     void Update()
     {
+        float actualSpeed = speed;
+        // Sprint
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            actualSpeed *= 1.5f;
+            animator.speed = 1.5f;
+            // increase camera fov to make the player think that they're going way faster, even though it's only 1.5x speed
+            Camera.main.orthographicSize =
+                Mathf.SmoothDamp(Camera.main.orthographicSize, 7f, ref currentVelocity, 0.2f);
+        }
+        else
+        {
+            actualSpeed = speed;
+            animator.speed = 1f;
+            // set camera fov to normal
+            Camera.main.orthographicSize =
+                Mathf.SmoothDamp(Camera.main.orthographicSize, 5f, ref currentVelocity, 0.2f);
+        }
         
         // Move Right
         if (Input.GetKey(KeyCode.D))
@@ -52,7 +73,7 @@ public class Movement : MonoBehaviour
             ParticleSystem.ShapeModule shape = particleSystem.shape;
             shape.rotation = new Vector3(329.38f, 270, 0.0f);
             // add force to player gameobject
-            rigidBody.AddForce(Vector2.right * speed * Time.deltaTime, ForceMode2D.Impulse);
+            rigidBody.AddForce(Vector2.right * actualSpeed * Time.deltaTime, ForceMode2D.Impulse);
 
             gameObject.transform.localScale = new Vector2(Math.Abs(transform.localScale.x), transform.localScale.y);
             // emit particles
@@ -73,7 +94,7 @@ public class Movement : MonoBehaviour
             ParticleSystem.ShapeModule shape = particleSystem.shape;
             shape.rotation = new Vector3(221.8f, 270, 0.0f);
             // add force to player gameobject
-            rigidBody.AddForce(Vector2.left * speed * Time.deltaTime, ForceMode2D.Impulse);
+            rigidBody.AddForce(Vector2.left * actualSpeed * Time.deltaTime, ForceMode2D.Impulse);
             
             gameObject.transform.localScale = new Vector2(-Math.Abs(transform.localScale.x), transform.localScale.y);
             // emit particles

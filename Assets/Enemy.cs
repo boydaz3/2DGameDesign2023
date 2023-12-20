@@ -14,6 +14,10 @@ public class Enemy : MonoBehaviour
     public int currentPoint;
 
     public Animator animator;
+
+    public bool isAlive = true;
+
+    public bool doDestroy = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,10 +27,15 @@ public class Enemy : MonoBehaviour
     void changeDoMove()
     {
         doMove = !doMove;
-        if (!doMove)
+        if (!doMove && isAlive)
         {
             animator.SetTrigger("run");
         }
+    }
+
+    public void destroy()
+    {
+        Destroy(gameObject.transform.parent.gameObject);
     }
 
     // Update is called once per frame
@@ -42,10 +51,15 @@ public class Enemy : MonoBehaviour
             }
         }
 
-        if (doMove)
+        if (doMove && isAlive)
         {
             transform.position = Vector2.MoveTowards(transform.position, points[currentPoint].transform.position,
                 Time.deltaTime * enemySpeed);
+        }
+
+        if (doDestroy)
+        {
+            destroy();
         }
     }
 

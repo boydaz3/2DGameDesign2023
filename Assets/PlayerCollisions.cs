@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -9,6 +10,8 @@ public class PlayerCollisions : MonoBehaviour
     public PhysicsMaterial2D enemyHitBoxMaterial;
     public Collider2D collider;
     public Animator animator;
+    public PhysicsMaterial2D enemyHurtBoxMaterial;
+    public TMP_Text livesText;
 
     [SerializeField]
     private int lives = 3;
@@ -21,11 +24,20 @@ public class PlayerCollisions : MonoBehaviour
         switch (collision.gameObject.name)
         {
             case "EnemySprite":
+                
                 if (collision.collider.sharedMaterial == enemyHitBoxMaterial)
                 {
-                    Destroy(collision.gameObject);
+                    foreach (var boxCollider2D in collision.gameObject.GetComponents<BoxCollider2D>())
+                    {
+                        boxCollider2D.enabled = false;
+                    }
+
+                    collision.gameObject.GetComponent<CircleCollider2D>().sharedMaterial = null;
+                    collision.gameObject.GetComponent<Enemy>().isAlive = false;
+                    collision.gameObject.GetComponent<Animator>().SetTrigger("death");
+
                 }
-                else
+                else if (collision.collider.sharedMaterial == enemyHurtBoxMaterial)
                 {
                     DecrementLives();
                 }
@@ -44,10 +56,15 @@ public class PlayerCollisions : MonoBehaviour
                 RestartLevel();
                 break;
             case "FinishFlag":
-                Debug.Log("Finish");
+                SceneManager.LoadScene("Win");
                 break;
         }
         
+    }
+
+    private void Start()
+    {
+        livesText.SetText("Lives: " + lives);
     }
 
     public void GameOver()
@@ -70,6 +87,7 @@ public class PlayerCollisions : MonoBehaviour
         if (lives > 0)
         {
             lives = setLives;
+            livesText.SetText("Lives: " + lives);
         }
         else
         {

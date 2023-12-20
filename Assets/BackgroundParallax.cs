@@ -17,6 +17,6 @@ public class BackgroundParallax : MonoBehaviour
     void Update()
     {
         float distance = cam.transform.position.x * parallaxEffect;
-        transform.position = new Vector3(startPos.x + distance, startPos.y, startPos.z);
+        transform.position = new Vector3(startPos.x + distance, cam.transform.position.y, startPos.z);
     }
 }
