@@ -9,4 +9,10 @@ public class SceneSwitcher : MonoBehaviour
     {
         SceneManager.LoadScene("Level" + level);
     }
+
+    public static void SwitchToScene(string name)
+    {
+        SceneManager.LoadScene(name);
+    }
+    
 }

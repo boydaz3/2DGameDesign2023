@@ -16,6 +16,8 @@ public class Movement : MonoBehaviour
     
     public float speed = 7f;
     public float jumpSpeed = 6.5f;
+
+    public float velocityCap = 15f;
  
     public Animator animator;
     void Start()
@@ -107,7 +109,11 @@ public class Movement : MonoBehaviour
         {
             doEmitParticles = false;
         }
-        
+
+        if (rigidBody.velocity.magnitude > velocityCap)
+        {
+            rigidBody.velocity = Vector2.ClampMagnitude(rigidBody.velocity, velocityCap);
+        }
         
 
     }
