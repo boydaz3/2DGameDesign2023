@@ -13,6 +13,7 @@ public class MultiJump : MonoBehaviour
     private Rigidbody2D rb;
     public Animator animator;
     float horizontalMovement = 0f;
+    public float terminalVelocity = 10.0f;
     
     // Start is called before the first frame update
     void Start()
@@ -51,6 +52,11 @@ public class MultiJump : MonoBehaviour
         else if(horizontalInput > 0)
         {
             transform.localScale = new Vector3(2, 2, 1);
+        }
+
+        if(rb.velocity.magnitude > terminalVelocity)
+        {
+            rb.velocity = Vector2.ClampMagnitude(rb.velocity, terminalVelocity);
         }
     }
 

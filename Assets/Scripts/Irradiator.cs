@@ -25,45 +25,52 @@ public class Irradiator : MonoBehaviour
 
     void Update()
     {
-        //Determines which waypoint is the waypoint to  currently navigate to
-        if(Vector2.Distance(waypoints[currentWaypoint].transform.position, transform.position) < 0.1f)
+        if(waypoints.Length > 0)
         {
-            //Flips the texture when the enemy reaches end of its path
-            if(currentWaypoint == waypoints.Length - 1)
+            //Determines which waypoint is the waypoint to currently navigate to
+            if(Vector2.Distance(waypoints[currentWaypoint].transform.position, transform.position) < 0.1f)
             {
-                transform.Rotate(0, 180f, 0);
-                movingForwards = true;
+                //Flips the texture when the enemy reaches end of its path
+                if(currentWaypoint == waypoints.Length - 1)
+                {
+                    transform.Rotate(0, 180f, 0);
+                    movingForwards = false;
+                }
+                else if(currentWaypoint == 0)
+                {
+                    transform.Rotate(0, 180f, 0);
+                    movingForwards = true;
+                }
+                
+                //Increments currentWaypoint if moving from left to right, increments otherwise
+                if(movingForwards)
+                {
+                    currentWaypoint++;
+                }
+                else
+                {
+                    currentWaypoint--;
+                }
+
             }
-            else if(currentWaypoint == 0)
+
+            //Moves the enemy so long as they haven't been killed
+            if(animator.GetBool("isDead") == false)
             {
-                transform.Rotate(0, 180f, 0);
-                movingForwards = false;
-            }
-            
-            //Decrements currentWaypoint if moving from left to right, increments otherwise
-            if(movingForwards)
-            {
-                currentWaypoint--;
+                transform.position = Vector2.MoveTowards(transform.position,
+                waypoints[currentWaypoint].transform.position, Time.deltaTime * IrradiatorSpeed);
             }
             else
             {
-                currentWaypoint++;
+                //Freezes the enemy and disables the capsule collider on death
+                rb.constraints = RigidbodyConstraints2D.FreezeAll;
+                capCol.enabled = false;
             }
-
-        }
-
-        //Moves the enemy so long as they haven't been killed
-        if(animator.GetBool("isDead") == false)
-        {
-            transform.position = Vector2.MoveTowards(transform.position,
-            waypoints[currentWaypoint].transform.position, Time.deltaTime * IrradiatorSpeed);
+            animator.SetFloat("IrradiatorSpeed", rb.velocity.magnitude);
         }
         else
         {
-            //Freezes the enemy and disables the capsule collider on death
-            rb.constraints = RigidbodyConstraints2D.FreezeAll;
-            capCol.enabled = false;
+            // Debug.Log(gameObject.name + " has no waypoints to navigate to!");
         }
-        animator.SetFloat("IrradiatorSpeed", rb.velocity[1]);
     }
 }

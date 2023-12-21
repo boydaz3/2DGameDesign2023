@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-//Cacian Rodriguez-Rolon
-
 public class NewBehaviourScript : MonoBehaviour
 {
+    public static int playerLives = 3;
+    
     //Detects collisions
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -21,6 +21,28 @@ public class NewBehaviourScript : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        //Checks if the trigger the player has made contact with is tagged with DeathZone
+        if(collision.gameObject.CompareTag("DeathZone"))
+        {
+            /*
+            Decrements the number of lives and restarts with a message displaying remaining lives or
+            displays a "Game Over" message
+            */
+            playerLives--;
+            if(playerLives > 0)
+            {
+                Debug.Log("Lives: " + playerLives);
+                Restart();
+            }
+            else
+            {
+                Debug.Log("A fatal exception error has occurred. Please avoid dying in the future. :)");
+            }
+        }
+    }
+
     //Reloads the active scene when called, effectively restarting the level
     private void Restart()
     {
@@ -28,12 +50,14 @@ public class NewBehaviourScript : MonoBehaviour
     }
 
     /*
-    Let's be honest this is shorter while still being easily understandable
-    Checks whether the collision was with the enemys head by checking the height of both objects
-    In hindsight there may be a better way to do this... It's late however
+    Checks the y value of the player and compares it to the y value of the colliding enemy
+    If the player is higher than the enemy, the isStomping returns true, if not, returns false
+    The + 0.1f is there to fix issues with the enemy dying when colliding with the player at the same
+    visible level, depsite an extremely small difference in their y-positions, causing the enemy to die
+    unless collided with from below.
     */
     private bool isStomping(Collision2D collision)
     {
-        return transform.position.y > collision.gameObject.transform.position.y;
+        return transform.position.y > collision.gameObject.transform.position.y + 0.1f;
     }
 }
