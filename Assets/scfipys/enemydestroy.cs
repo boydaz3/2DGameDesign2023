@@ -1,14 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Xml.Serialization;
 using UnityEngine;
 
 public class enemydestroy : MonoBehaviour
 {
-    private void OnTriggerEnter2D (Collider2D collision)
+    private Animator enemyAnimator;
+
+    private void Start()
     {
-        if(collision.gameObject.tag == "enemy")
+        enemyAnimator = transform.parent.GetComponent<Animator>();
+    } 
+    private void OnCollisionEnter2D (Collision2D collision)
+    {
+        if(collision.gameObject.tag == "Player")
         {
-            Destroy(collision.gameObject);
+            enemyAnimator.SetTrigger("Destroy");
+            Invoke("DestroyEnemy", 0.5f);
         }
+    }
+    public void DestroyEnemy()
+    {
+        Destroy(transform.parent.gameObject);
     }
 }

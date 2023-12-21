@@ -6,16 +6,16 @@ using UnityEngine.SceneManagement;
 public class Respawn : MonoBehaviour
 {
     public static int playerLives = 3;
-    private void OnCollisionEnter2D(Collision2D collision) //example of omCollision fucntion thus is based on the capsuleCollider of the [a;]
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-
-       if(collision.gameObject.CompareTag("enemy"))
+        if (collision.gameObject.CompareTag("Player"))
+    
+      {
+        if(!IsCollisionFromTop(collision))
         {
-        if (!IsCollisionFromTop(collision))
-            {
             RestartLevel();
-            }
         }
+      }
     }
     private void OnTriggerEnter2D(Collider2D collision) //player object is colliding with a collider that is set on a trigger
     {
