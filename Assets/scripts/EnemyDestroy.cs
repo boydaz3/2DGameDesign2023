@@ -15,7 +15,7 @@ public class EnemyDestroy : MonoBehaviour
         if(collision.gameObject.tag == "Player")
         {
             enemyAnimator.SetTrigger("Destroy");
-            Invoke("DestroyEnemy", 0.8f);
+            Invoke("DestroyEnemy", 0.5f);
         }
     }
 
