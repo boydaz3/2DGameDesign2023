@@ -55,7 +55,7 @@ public class Movement : MonoBehaviour
             animator.speed = 1.5f;
             // increase camera fov to make the player think that they're going way faster, even though it's only 1.5x speed
             Camera.main.orthographicSize =
-                Mathf.SmoothDamp(Camera.main.orthographicSize, 7f, ref currentVelocity, 0.2f);
+                Mathf.SmoothDamp(Camera.main.orthographicSize, 10f, ref currentVelocity, 0.2f);
         }
         else
         {
@@ -63,7 +63,7 @@ public class Movement : MonoBehaviour
             animator.speed = 1f;
             // set camera fov to normal
             Camera.main.orthographicSize =
-                Mathf.SmoothDamp(Camera.main.orthographicSize, 5f, ref currentVelocity, 0.2f);
+                Mathf.SmoothDamp(Camera.main.orthographicSize, 7f, ref currentVelocity, 0.2f);
         }
         
         // Move Right
