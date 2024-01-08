@@ -12,7 +12,10 @@ public class playerRespawn : MonoBehaviour
         {
             if(!IsCollisionFromTop(collision))
             {
-                RestartLevel();
+                if(playerLives > 0)
+                {
+                    RestartLevel();
+                }
             }
         }
     }
@@ -27,6 +30,7 @@ public class playerRespawn : MonoBehaviour
                 RestartLevel();
             }else
             {
+                playerLives = 3;
                 loadgameover();
                 Debug.Log("Game Over");
             }
