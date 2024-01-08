@@ -27,6 +27,7 @@ public class playerRespawn : MonoBehaviour
                 RestartLevel();
             }else
             {
+                loadgameover();
                 Debug.Log("Game Over");
             }
         }
@@ -39,5 +40,9 @@ public class playerRespawn : MonoBehaviour
     private void RestartLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+    private void loadgameover()
+    {
+        SceneManager.LoadScene("GameOver");
     }
 }
