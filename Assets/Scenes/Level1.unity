@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 34390952}
   - component: {fileID: 34390951}
   m_Layer: 0
-  m_Name: 6_Mangamuri_CaveOpening_0
+  m_Name: CaveOpening
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10790,7 +10790,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 357363323, guid: 993a36ceb681e9f42970a72e3e95b53c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -16087,7 +16087,7 @@ SceneRoots:
   - {fileID: 2024228642}
   - {fileID: 1140353374}
   - {fileID: 46255133}
+  - {fileID: 34390952}
   - {fileID: 216747295}
   - {fileID: 1162285189}
   - {fileID: 1662872266}
-  - {fileID: 34390952}
