@@ -33,6 +33,11 @@ public class playerRespawn : MonoBehaviour
             Debug.Log("Game Over");
         }
        }
+       if(collision.gameObject.CompareTag("Goal"))
+       {
+        Debug.Log("player has reached the Goal");
+        SceneManager.LoadScene("To Ezz");
+       }
     }
 
     private bool IsCollisionFromTop(Collision2D collision)
