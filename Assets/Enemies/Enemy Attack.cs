@@ -18,7 +18,7 @@ public class EnemyAttack : MonoBehaviour
         if(collision.gameObject.tag == "Player"){
             GetComponentInParent<Enemies>().StopMovementOnX();
             enemyAnimator.SetTrigger("Attack");
-            yield return new WaitForSeconds (1.2f);
+            yield return new WaitForSeconds (1.3f);
             if(collision.gameObject.tag == "Player"){
                 RestartLevel();
             }
