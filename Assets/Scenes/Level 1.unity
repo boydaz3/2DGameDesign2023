@@ -1547,7 +1547,7 @@ MonoBehaviour:
   moveSpeed: 6
   jumpForce: 20
   animator: {fileID: 1525959308}
-  maxVelocity: 10
+  maxVelocity: 20
 --- !u!95 &1525959308
 Animator:
   serializedVersion: 7
