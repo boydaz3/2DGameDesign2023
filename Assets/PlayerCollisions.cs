@@ -12,6 +12,7 @@ public class PlayerCollisions : MonoBehaviour
     public Animator animator;
     public PhysicsMaterial2D enemyHurtBoxMaterial;
     public TMP_Text livesText;
+    public CaveOpening CaveOpening;
 
     [SerializeField]
     private int lives = 3;
@@ -58,8 +59,21 @@ public class PlayerCollisions : MonoBehaviour
             case "FinishFlag":
                 SceneManager.LoadScene("Win");
                 break;
+            case "CaveOpening":
+                CaveOpening.onEnter();
+                break;
         }
         
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        switch (collision.gameObject.tag)
+        {
+            case "CaveOpening":
+                CaveOpening.onExit();
+                break;
+        }
     }
 
     private void Start()
