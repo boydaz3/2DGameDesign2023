@@ -13,17 +13,51 @@ public class EnemyAttack : MonoBehaviour
         enemyAnimator = transform.parent.GetComponent<Animator>();
         
     }
-    private IEnumerator OnTriggerEnter2D(Collider2D collision){
+    bool playerStillTouching = false;
 
-        if(collision.gameObject.tag == "Player"){
-            GetComponentInParent<Enemies>().StopMovementOnX();
-            enemyAnimator.SetTrigger("Attack");
-            yield return new WaitForSeconds (1.3f);
-            if(collision.gameObject.tag == "Player"){
-                RestartLevel();
-            }
-            yield return new WaitForSeconds (0.3f);
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            StartCoroutine(PerformAttack());
+        }
+    }
+
+    IEnumerator PerformAttack()
+    {
+        GetComponentInParent<Enemies>().StopMovementOnX();
+        enemyAnimator.SetTrigger("Attack");
+
+        // Wait for the attack animation duration
+        yield return new WaitForSeconds(1.3f);
+
+        // Check if the player is still touching the enemy
+        if (playerStillTouching)
+        {
+            RestartLevel();
+        }
+        else
+        {
+            // Continue with the rest of the code if the player is not touching
+            yield return new WaitForSeconds(0.2f);
             GetComponentInParent<Enemies>().StartMovementOnX();
+            // Additional logic for the animation completion and level continuation
+        }
+    }
+
+    void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            playerStillTouching = true;
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            playerStillTouching = false;
         }
     }
 
