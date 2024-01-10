@@ -31,17 +31,17 @@ public class FloatingPlatform : MonoBehaviour
         rb.rotation = Mathf.Clamp(rb.rotation, -10, 10);
         if (rb.rotation < -5f && transform.position.x < pointEnd.transform.position.x)
         {
-            rb.AddForceX(PlatformSpeed * Time.deltaTime, ForceMode2D.Impulse);
+            rb.AddForce(new Vector2(PlatformSpeed * Time.deltaTime, 0), ForceMode2D.Impulse);
             if (transform.position.x > pointGoUp.transform.position.x)
             {
                 rb.constraints = RigidbodyConstraints2D.None; 
-                rb.AddForceY(PlatformSpeed * Time.deltaTime, ForceMode2D.Impulse);
+                rb.AddForce(new Vector2(0, PlatformSpeed * Time.deltaTime), ForceMode2D.Impulse);
             }
         }
         if (rb.rotation > 5f && transform.position.x > pointStart.transform.position.x && 
             transform.position.x < pointEnd.transform.position.x)
         {
-            rb.AddForceX(-PlatformSpeed * Time.deltaTime, ForceMode2D.Impulse);
+            rb.AddForce(new Vector2(-PlatformSpeed * Time.deltaTime, 0), ForceMode2D.Impulse);
         }
 
         if (transform.position.x >= pointEnd.transform.position.x)

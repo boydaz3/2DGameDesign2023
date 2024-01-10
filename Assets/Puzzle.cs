@@ -7,11 +7,8 @@ public class Puzzle : MonoBehaviour
 {
     public List<PuzzleTile> tiles = new List<PuzzleTile>();
 
-    private void Start()
+    public void Check()
     {
-        for (int i = 0; i < gameObject.transform.childCount; i++)
-        {
-            tiles.Add(gameObject.transform.GetChild(i).GetComponent<PuzzleTile>());
-        }
+        
     }
 }
