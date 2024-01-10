@@ -1,7 +1,19 @@
 fileFormatVersion: 2
-guid: f015c150531dfb248a36b0bee9db2a9b
+guid: 29ba8eb3afd4eb843b1f43938c3a8c52
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4917403675914965584
+    second: 6_Mangamuri_Cave_PressurePlate_0
+  - first:
+      213: -8969175159411904529
+    second: 6_Mangamuri_Cave_PressurePlate_1
+  - first:
+      213: -8495045515619498509
+    second: 6_Mangamuri_Cave_PressurePlate_2
+  - first:
+      213: -4111066015967361085
+    second: 6_Mangamuri_Cave_PressurePlate_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -39,7 +51,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 2
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -48,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,34 +82,8 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: 4
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Server
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -119,89 +105,118 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 6_Mangamuri_PlayerJump_0
+      name: 6_Mangamuri_Cave_PressurePlate_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 320
-        width: 320
-        height: 320
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 3, y: -11}
+        - {x: -3, y: -11}
+        - {x: -8, y: -16}
+        - {x: 8, y: -16}
       tessellationDetail: 0
       bones: []
-      spriteID: 819c04ddbb005d948b22e7cb1ebfb3ee
-      internalID: -1427271054
+      spriteID: 0529c18f6902e3440800000000000000
+      internalID: 4917403675914965584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 6_Mangamuri_PlayerJump_1
+      name: 6_Mangamuri_Cave_PressurePlate_1
       rect:
         serializedVersion: 2
-        x: 320
-        y: 320
-        width: 320
-        height: 320
+        x: 32
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 3, y: -11}
+        - {x: -3, y: -11}
+        - {x: -8, y: -16}
+        - {x: 8, y: -16}
       tessellationDetail: 0
       bones: []
-      spriteID: b737a6a1c290f394497ed6984b3f48ba
-      internalID: 1724437043
+      spriteID: fefeef696b6178380800000000000000
+      internalID: -8969175159411904529
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 6_Mangamuri_PlayerJump_2
+      name: 6_Mangamuri_Cave_PressurePlate_2
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 320
-        height: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 3, y: -11}
+        - {x: -3, y: -11}
+        - {x: -8, y: -16}
+        - {x: 8, y: -16}
       tessellationDetail: 0
       bones: []
-      spriteID: b6beb71791dda3243929f8eda0d83b58
-      internalID: -1304296829
+      spriteID: 3f589babc198b1a80800000000000000
+      internalID: -8495045515619498509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 6_Mangamuri_PlayerJump_3
+      name: 6_Mangamuri_Cave_PressurePlate_3
       rect:
         serializedVersion: 2
-        x: 320
+        x: 32
         y: 0
-        width: 320
-        height: 320
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 3, y: -11}
+        - {x: -3, y: -11}
+        - {x: -8, y: -16}
+        - {x: 8, y: -16}
       tessellationDetail: 0
       bones: []
-      spriteID: b1dffcf1bac9fec4696606d216610233
-      internalID: -1392831061
+      spriteID: 3c7c5166d3f82f6c0800000000000000
+      internalID: -4111066015967361085
       vertices: []
       indices: 
       edges: []
@@ -209,7 +224,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: d6b78c64c6ca37e468f46acd8afb9deb
     internalID: 0
     vertices: []
     indices: 
@@ -217,10 +232,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      6_Mangamuri_PlayerJump_0: -1427271054
-      6_Mangamuri_PlayerJump_1: 1724437043
-      6_Mangamuri_PlayerJump_2: -1304296829
-      6_Mangamuri_PlayerJump_3: -1392831061
+      6_Mangamuri_Cave_PressurePlate_0: 4917403675914965584
+      6_Mangamuri_Cave_PressurePlate_1: -8969175159411904529
+      6_Mangamuri_Cave_PressurePlate_2: -8495045515619498509
+      6_Mangamuri_Cave_PressurePlate_3: -4111066015967361085
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

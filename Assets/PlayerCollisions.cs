@@ -43,10 +43,9 @@ public class PlayerCollisions : MonoBehaviour
                     DecrementLives();
                 }
                 break;
-            
         }
     }
-
+    
     private void OnTriggerEnter2D(Collider2D collision)
     {
         // for debug purposes

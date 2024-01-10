@@ -3,8 +3,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+ using UnityEngine.SceneManagement;
 
-public class Movement : MonoBehaviour
+ public class Movement : MonoBehaviour
 {
     private Rigidbody2D rigidBody;
     // these variables are set in the Unity Editor
@@ -22,6 +23,8 @@ public class Movement : MonoBehaviour
     public Animator animator;
     
     private float currentVelocity;
+
+    public GameObject collidingWith;
     
     void Start()
     {
@@ -65,6 +68,12 @@ public class Movement : MonoBehaviour
             Camera.main.orthographicSize =
                 Mathf.SmoothDamp(Camera.main.orthographicSize, 7f, ref currentVelocity, 0.2f);
         }
+
+        if (SceneManager.GetActiveScene().Equals("Cave"))
+        {
+            actualSpeed /= 1.4f;
+        }
+        
         
         // Move Right
         if (Input.GetKey(KeyCode.D))
@@ -116,11 +125,19 @@ public class Movement : MonoBehaviour
         if (Input.GetButtonDown("Jump"))
         {
             // if player's y velocity is about 0, then emit jump particles and add force to gameobject
-            if (Math.Abs(Math.Round(rigidBody.velocity.y)) == 0f)
+            if (isAlowedToJump())
             {
                 animator.SetTrigger("Jump");
                 particleSystemJump.Emit(emitParams, 10);
-                rigidBody.AddForce(Vector2.up * jumpSpeed, ForceMode2D.Impulse);
+                if (!SceneManager.GetActiveScene().name.Equals("Cave"))
+                {
+                    rigidBody.AddForce(Vector2.up * jumpSpeed, ForceMode2D.Impulse);
+                }
+                else
+                {
+                    rigidBody.AddForce(Vector2.up * (jumpSpeed/1.6f), ForceMode2D.Impulse);
+                }
+                
             }
         }
 
@@ -138,5 +155,29 @@ public class Movement : MonoBehaviour
         
 
     }
+
+    private bool isAlowedToJump()
+    {
+        if (collidingWith)
+        {
+            if (collidingWith.CompareTag("Wheel"))
+            {
+                return Math.Abs(Math.Round(rigidBody.velocity.y)) < 2f &&
+                       Math.Abs(Math.Round(rigidBody.velocity.y)) > -2f;
+            }
+        } 
+        return rigidBody.velocity.y < 0.2f &&
+               rigidBody.velocity.y > -0.2f &&
+               collidingWith;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        collidingWith = collision.gameObject;
+    }
     
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        collidingWith = null;
+    }
 }

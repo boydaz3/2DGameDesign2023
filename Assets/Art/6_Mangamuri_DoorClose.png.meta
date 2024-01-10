@@ -77,7 +77,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -119,10 +119,10 @@ TextureImporter:
       name: 6_Mangamuri_DoorClose_0
       rect:
         serializedVersion: 2
-        x: 69
-        y: 0
-        width: 172
-        height: 960
+        x: 0
+        y: 640
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,10 +140,10 @@ TextureImporter:
       name: 6_Mangamuri_DoorClose_1
       rect:
         serializedVersion: 2
-        x: 399
-        y: 319
-        width: 162
-        height: 641
+        x: 320
+        y: 640
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -157,10 +157,73 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: 6_Mangamuri_DoorClose_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46c2cad445e7c945bfa1455c69b22fc
+      internalID: 2051156179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Mangamuri_DoorClose_3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87241451e2f3f0d4db66bbd235db6f30
+      internalID: 1152820724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Mangamuri_DoorClose_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb6570518333ce04aaf672d3180418ce
+      internalID: 287407740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 69c98863ce507264eb33b1602e4a919b
     internalID: 0
     vertices: []
     indices: 
@@ -170,6 +233,9 @@ TextureImporter:
     nameFileIdTable:
       6_Mangamuri_DoorClose_0: -121382685941953111
       6_Mangamuri_DoorClose_1: 4823742080850199401
+      6_Mangamuri_DoorClose_2: 2051156179
+      6_Mangamuri_DoorClose_3: 1152820724
+      6_Mangamuri_DoorClose_4: 287407740
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

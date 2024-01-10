@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 4600756664297909106}
   - component: {fileID: 8851132734353855474}
   - component: {fileID: 7822634020138567081}
-  - component: {fileID: 3237894273444018179}
   - component: {fileID: 6113868159738402317}
   - component: {fileID: 1045935235018403774}
   - component: {fileID: 8000996461713845046}
   - component: {fileID: 2038491844822555232}
+  - component: {fileID: 3237894273444018179}
   - component: {fileID: 8538043819740248508}
   m_Layer: 6
   m_Name: Player
@@ -112,24 +112,6 @@ MonoBehaviour:
   blendDistance: 0
   weight: 1
   priority: 0
---- !u!114 &3237894273444018179
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5298578709490449782}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e81d4ad3f728bf46bbb34b5b1f86e64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  particleSystem: {fileID: 7163014376946796435}
-  particleSystemJump: {fileID: 7633027243811910713}
-  speed: 7
-  jumpSpeed: 8
-  velocityCap: 15
-  animator: {fileID: 8000996461713845046}
 --- !u!50 &6113868159738402317
 Rigidbody2D:
   serializedVersion: 4
@@ -262,6 +244,25 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: -0.102939785}
   m_Size: {x: 1.700023, y: 2.9941206}
   m_Direction: 0
+--- !u!114 &3237894273444018179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5298578709490449782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e81d4ad3f728bf46bbb34b5b1f86e64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particleSystem: {fileID: 7163014376946796435}
+  particleSystemJump: {fileID: 7633027243811910713}
+  speed: 7
+  jumpSpeed: 8
+  velocityCap: 15
+  animator: {fileID: 8000996461713845046}
+  collidingWith: {fileID: 0}
 --- !u!114 &8538043819740248508
 MonoBehaviour:
   m_ObjectHideFlags: 0

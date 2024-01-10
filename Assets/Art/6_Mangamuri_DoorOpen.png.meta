@@ -80,7 +80,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -122,10 +122,10 @@ TextureImporter:
       name: 6_Mangamuri_DoorOpen_0
       rect:
         serializedVersion: 2
-        x: 79
-        y: 0
-        width: 162
-        height: 960
+        x: 0
+        y: 640
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,10 +143,10 @@ TextureImporter:
       name: 6_Mangamuri_DoorOpen_1
       rect:
         serializedVersion: 2
-        x: 389
-        y: 0
-        width: 172
-        height: 960
+        x: 320
+        y: 640
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,10 +164,10 @@ TextureImporter:
       name: 6_Mangamuri_DoorOpen_2
       rect:
         serializedVersion: 2
-        x: 719
-        y: 319
-        width: 162
-        height: 641
+        x: 640
+        y: 640
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,10 +181,115 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: 6_Mangamuri_DoorOpen_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441473092e803874496b517b923ff68d
+      internalID: -934701909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Mangamuri_DoorOpen_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbc0fc9928c5fb44b67fb560a523a59
+      internalID: -226094665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Mangamuri_DoorOpen_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340f9091a190c094ab9cc9a9c55819c3
+      internalID: 300940891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Mangamuri_DoorOpen_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139068e2b5927f1459a06d27aebe33f2
+      internalID: 3758805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Mangamuri_DoorOpen_7
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc0a5df1c4cb1541a960183830314ab
+      internalID: 1953005943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 591c9bdac92f8fb4cbd0c0bc0b068a25
     internalID: 0
     vertices: []
     indices: 
@@ -195,6 +300,11 @@ TextureImporter:
       6_Mangamuri_DoorOpen_0: -9049413173608255954
       6_Mangamuri_DoorOpen_1: 4032663304129097254
       6_Mangamuri_DoorOpen_2: -815973931094362975
+      6_Mangamuri_DoorOpen_3: -934701909
+      6_Mangamuri_DoorOpen_4: -226094665
+      6_Mangamuri_DoorOpen_5: 300940891
+      6_Mangamuri_DoorOpen_6: 3758805
+      6_Mangamuri_DoorOpen_7: 1953005943
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
