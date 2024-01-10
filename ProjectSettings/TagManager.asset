@@ -8,6 +8,7 @@ TagManager:
   - FinishFlag
   - CaveOpening
   - Wheel
+  - FloatingPlatform
   layers:
   - Default
   - TransparentFX

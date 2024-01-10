@@ -15,7 +15,7 @@ using UnityEngine;
     private ParticleSystem.EmitParams emitParams = new ParticleSystem.EmitParams();
     private bool doEmitParticles = false;
     
-    public float speed = 7f;
+    public float speed = 14f;
     public float jumpSpeed = 6.5f;
 
     public float velocityCap = 15f;
@@ -162,8 +162,13 @@ using UnityEngine;
         {
             if (collidingWith.CompareTag("Wheel"))
             {
-                return Math.Abs(Math.Round(rigidBody.velocity.y)) < 2f &&
-                       Math.Abs(Math.Round(rigidBody.velocity.y)) > -2f;
+                return Math.Abs(Math.Round(rigidBody.velocity.y)) < 3f &&
+                       Math.Abs(Math.Round(rigidBody.velocity.y)) > -3f;
+            }
+
+            if (collidingWith.CompareTag("FloatingPlatform"))
+            {
+                return true;
             }
         } 
         return rigidBody.velocity.y < 0.2f &&
