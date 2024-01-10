@@ -9,6 +9,9 @@ public class Puzzle : MonoBehaviour
 
     public void Check()
     {
-        
+        foreach (PuzzleTile puzzleTile in tiles)
+        {
+            
+        }
     }
 }
