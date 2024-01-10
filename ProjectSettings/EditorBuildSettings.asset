@@ -11,11 +11,20 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Ma game.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Start screen.unity
     guid: 420545029b7a5854798df218a1272caf
   - enabled: 1
     path: Assets/Scenes 1/Level 2.unity
     guid: eb95e80be5c26164897c3fa774265a5e
+  - enabled: 1
+    path: Assets/Scenes 1/Winscreen.unity
+    guid: eaadcf1543e02e648ab89b5a5b102110
+  - enabled: 1
+    path: Assets/Scenes 1/Start screen.unity
+    guid: c0aed055a87ae3b43b229eb54ea237af
+  - enabled: 1
+    path: Assets/Scenes 1/Ma game.unity
+    guid: 5d79afa464349e945b90f5c12e0647b1
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
