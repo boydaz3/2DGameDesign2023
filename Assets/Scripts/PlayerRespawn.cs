@@ -29,11 +29,20 @@ public class PlayerRespawn : MonoBehaviour
             }else
             {
                 Debug.Log("Game Over");
+                SceneManager.LoadScene("Death");
+                playerLives = 3;
             }
+            
+        
+            
         }
         if(collision.gameObject.CompareTag("Flag"))
         {
             Debug.Log("Player has reached the flag");
+            SceneManager.LoadScene("Scene2");
+        }
+        if(collision.gameObject.CompareTag("EndFlag"))
+        {
             SceneManager.LoadScene("VictoryScreen");
         }
     }
