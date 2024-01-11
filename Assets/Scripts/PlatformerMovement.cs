@@ -12,6 +12,9 @@ public class PlatformerMovement : MonoBehaviour
     public Animator animator;
 
     float horizontalMovement = 0f;
+
+    public float maxVelocity = 10f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -41,6 +44,11 @@ public class PlatformerMovement : MonoBehaviour
             transform.localScale = new Vector3(-0.25f, 0.25f, 0.25f);
         } else if(horizontalInput > 0){
             transform.localScale = new Vector3(0.25f, 0.25f, 0.25f);
+        }
+
+        if(rb.velocity.magnitude > maxVelocity)
+        {
+            rb.velocity = Vector2.ClampMagnitude(rb.velocity, maxVelocity);
         }
     }
 
