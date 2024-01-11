@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class Star : MonoBehaviour
 {
-    public void StartGame()
+    public void LoadScene(string sceneName)
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene(sceneName);
     }
 
 }

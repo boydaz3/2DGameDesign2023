@@ -30,7 +30,19 @@ public class Respawn : MonoBehaviour
             {
                 Debug.Log("Game Over");
             }
+
         }
+        {
+    if (collision.gameObject.CompareTag("Flag"))
+    {
+        Debug.Log("Player has reached the Flag");
+        SceneManager.LoadScene("level2");
+    }
+    if (collision.gameObject.CompareTag("EndFlag"))
+    {
+     SceneManager.LoadScene("end");
+    }
+}
     }
 
     private bool IsCollisionFromTop(Collision2D collision)
