@@ -218,7 +218,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2923566768921751309, guid: fa2888745e4b8c74b859f46caff4f5e5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 29.61
+      value: 26.22
       objectReference: {fileID: 0}
     - target: {fileID: 2923566768921751309, guid: fa2888745e4b8c74b859f46caff4f5e5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -264,6 +264,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 4.42
       objectReference: {fileID: 0}
+    - target: {fileID: 4505136845849717005, guid: fa2888745e4b8c74b859f46caff4f5e5, type: 3}
+      propertyPath: 'wayPoints.Array.data[0]'
+      value: 
+      objectReference: {fileID: 869689868}
+    - target: {fileID: 4505136845849717005, guid: fa2888745e4b8c74b859f46caff4f5e5, type: 3}
+      propertyPath: 'wayPoints.Array.data[1]'
+      value: 
+      objectReference: {fileID: 828314441}
     - target: {fileID: 6104189932981766016, guid: fa2888745e4b8c74b859f46caff4f5e5, type: 3}
       propertyPath: m_Size.x
       value: 13.074679
@@ -288,6 +296,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6665741639827024995, guid: fa2888745e4b8c74b859f46caff4f5e5, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8d410281c7a06314f9eb8e6b0471a4fc, type: 2}
     m_RemovedComponents:
     - {fileID: 6104189932981766016, guid: fa2888745e4b8c74b859f46caff4f5e5, type: 3}
     m_RemovedGameObjects: []
@@ -430,7 +442,7 @@ Transform:
   m_GameObject: {fileID: 828314441}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 20.89, y: 0.27, z: 0.009702992}
+  m_LocalPosition: {x: 20.89, y: 0.59, z: 0.009702992}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -461,7 +473,7 @@ Transform:
   m_GameObject: {fileID: 869689868}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 30.99, y: 0.26, z: 0.009702992}
+  m_LocalPosition: {x: 31.52, y: 0.47, z: 0.009702992}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -515,6 +527,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4505136845849717005, guid: fa2888745e4b8c74b859f46caff4f5e5, type: 3}
+      propertyPath: 'wayPoints.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2008249895}
+    - target: {fileID: 4505136845849717005, guid: fa2888745e4b8c74b859f46caff4f5e5, type: 3}
+      propertyPath: 'wayPoints.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1335412294}
     - target: {fileID: 6524012039628400429, guid: fa2888745e4b8c74b859f46caff4f5e5, type: 3}
       propertyPath: m_Name
       value: Enemy
@@ -608,6 +628,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 4505136845849717005, guid: fa2888745e4b8c74b859f46caff4f5e5, type: 3}
+      propertyPath: 'wayPoints.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1605909906}
+    - target: {fileID: 4505136845849717005, guid: fa2888745e4b8c74b859f46caff4f5e5, type: 3}
+      propertyPath: 'wayPoints.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1444641761}
     - target: {fileID: 6104189932981766016, guid: fa2888745e4b8c74b859f46caff4f5e5, type: 3}
       propertyPath: m_Size.y
       value: 4.0789413
@@ -813,7 +841,7 @@ Transform:
   m_GameObject: {fileID: 1335412294}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -30.98, y: 0.51, z: 0.009702992}
+  m_LocalPosition: {x: -30.98, y: 0.92, z: 0.009702992}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7817,7 +7845,7 @@ Transform:
   m_GameObject: {fileID: 2008249895}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -25.93, y: 0.54, z: 0.009702992}
+  m_LocalPosition: {x: -25.93, y: 1.03, z: 0.009702992}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
