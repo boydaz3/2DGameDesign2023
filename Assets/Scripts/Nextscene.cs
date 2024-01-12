@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Nextscene : MonoBehaviour
+public class Winmenu : MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene("Start screen");
+        SceneManager.LoadScene("Winscreen");
     }
 }
