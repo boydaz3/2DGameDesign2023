@@ -18,9 +18,9 @@ public class Enemy : MonoBehaviour
             if(currentWayPoint >= wayPoints.Length)
             {
                 currentWayPoint = 0;
-            
             }
         }
+
         transform.position = Vector2.MoveTowards(transform.position, wayPoints[currentWayPoint].transform.position, Time.deltaTime * EnemySpeed);
     }
 }
