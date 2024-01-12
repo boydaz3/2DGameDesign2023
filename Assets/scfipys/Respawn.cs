@@ -28,7 +28,7 @@ public class Respawn : MonoBehaviour
                 RestartLevel();
             }else
             {
-                Debug.Log("Game Over");
+                SceneManager.LoadScene("game over");
             }
 
         }

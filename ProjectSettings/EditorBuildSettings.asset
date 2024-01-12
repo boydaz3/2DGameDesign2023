@@ -17,5 +17,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/scfipys/Scenes/end.unity
     guid: 76de57b64da5c854cb9c3426904ee2fc
+  - enabled: 1
+    path: Assets/scfipys/Scenes/game over.unity
+    guid: 88c9057731eea414590cb8e8134e51d4
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
