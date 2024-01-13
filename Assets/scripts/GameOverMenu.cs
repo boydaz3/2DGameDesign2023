@@ -7,6 +7,6 @@ public class GameOverMenu : MonoBehaviour
 {
     public void GameOver()
     {
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("Start Screen");
     }
         }
