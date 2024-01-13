@@ -6,6 +6,12 @@ using UnityEngine.SceneManagement;
 public class NewBehaviourScript : MonoBehaviour
 {
     public static int playerLives = 3;
+    public Rigidbody2D rb;
+
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
     
     //Detects collisions
     private void OnCollisionEnter2D(Collision2D collision)
@@ -16,7 +22,11 @@ public class NewBehaviourScript : MonoBehaviour
             //Restarts the level, or in this case game, if the collision was not with the enemys head
             if(!isStomping(collision))
             {
-                Restart();
+                SceneLoader.ReloadLevel();
+            }
+            else
+            {
+                rb.velocity = new Vector2(rb.velocity.x, MultiJump.jumpForce/2);
             }
         }
     }
@@ -34,19 +44,14 @@ public class NewBehaviourScript : MonoBehaviour
             if(playerLives > 0)
             {
                 Debug.Log("Lives: " + playerLives);
-                Restart();
+                SceneLoader.ReloadLevel();
             }
             else
             {
+                SceneLoader.GameOver();
                 Debug.Log("A fatal exception error has occurred. Please avoid dying in the future. :)");
             }
         }
-    }
-
-    //Reloads the active scene when called, effectively restarting the level
-    private void Restart()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     /*

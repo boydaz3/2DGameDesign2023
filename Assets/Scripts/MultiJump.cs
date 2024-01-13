@@ -7,7 +7,7 @@ using UnityEngine;
 public class MultiJump : MonoBehaviour
 {
     public float movementSpeed = 15f;
-    public float jumpForce = 25f;
+    public static float jumpForce = 25f;
     public int jumpCharges = 2;
     private int jumpChargesLeft;
     private Rigidbody2D rb;

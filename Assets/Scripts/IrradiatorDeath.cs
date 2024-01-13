@@ -4,8 +4,7 @@ using UnityEngine;
 
 //Cacian Rodriguez-Rolon
 
-//Let's be honest that's what we're coding here, a goomba stomp ability.
-public class GoombaStomp : MonoBehaviour
+public class IrradiatorDeath : MonoBehaviour
 {
     private Animator animator;
     private BoxCollider2D boxCol;
@@ -16,7 +15,7 @@ public class GoombaStomp : MonoBehaviour
         boxCol = GetComponent<BoxCollider2D>();
     }
     
-    //Detects when  the box collider on the head makes contact with a player's collider
+    //Detects when the box collider on the head makes contact with a player's collider
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.tag == "Player")

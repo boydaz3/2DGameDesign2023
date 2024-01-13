@@ -114,7 +114,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 96
+        y: 192
         width: 32
         height: 32
       alignment: 0
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8a2f27c7fef12d46af66c00d9ffd22e
-      internalID: -1867309070
+      spriteID: 667bbb002ff407242ba29b612b134c27
+      internalID: -691405900
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 96
+        y: 192
         width: 32
         height: 32
       alignment: 0
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7abccb55673fcb04f9aa79ea67f2e807
-      internalID: -1771481400
+      spriteID: 9bbc04214cf5f64489a713b302f09dd7
+      internalID: -119718767
       vertices: []
       indices: 
       edges: []
@@ -156,7 +156,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 96
+        y: 192
         width: 32
         height: 32
       alignment: 0
@@ -166,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 662670e2ae154ac40a44ad26dc805400
-      internalID: 769174153
+      spriteID: e862f4d71a8ea54488687f755932accc
+      internalID: -1282304686
       vertices: []
       indices: 
       edges: []
@@ -177,6 +177,195 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746203d2cb8271d47916a2050ec5a17a
+      internalID: -1339138404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Rodriguez-Rolon_ZBotIdle_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7853783512943c8449c4afc1cb391ede
+      internalID: -738602286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Rodriguez-Rolon_ZBotIdle_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e34f65c21598d444a537aed4ad67199
+      internalID: -1183945422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Rodriguez-Rolon_ZBotIdle_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8d361540b013d4d8ca6de058165a14
+      internalID: 1285982289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Rodriguez-Rolon_ZBotIdle_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53a648f5439edf48983cae214915660
+      internalID: -1057182826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Rodriguez-Rolon_ZBotIdle_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9b51930639f0b449c2fa89b0fae14a
+      internalID: -29097128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Rodriguez-Rolon_ZBotIdle_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71970574e660ef44b94a79a462e0ab12
+      internalID: 84459892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Rodriguez-Rolon_ZBotIdle_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0a52becd381ae46847da56dbf03e94
+      internalID: 909408212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Rodriguez-Rolon_ZBotIdle_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2aafd742c06bef4bba240e2e694dedb
+      internalID: -1270682550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Rodriguez-Rolon_ZBotIdle_12
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 96
         width: 32
         height: 32
@@ -187,14 +376,77 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b326bdb7219ac74ca1dda6049959d0e
-      internalID: -227737913
+      spriteID: e1b38e8dccf0d6540b91a0977ade523a
+      internalID: -293761939
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 6_Rodriguez-Rolon_ZBotIdle_4
+      name: 6_Rodriguez-Rolon_ZBotIdle_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324fc25445725d14eac8817be366b86b
+      internalID: 1154393275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Rodriguez-Rolon_ZBotIdle_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2599aedc54b5b4f9ec6598cafdf64c
+      internalID: 1577037998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Rodriguez-Rolon_ZBotIdle_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909458f27e084d448b4b493e67309ed6
+      internalID: -80588964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Rodriguez-Rolon_ZBotIdle_16
       rect:
         serializedVersion: 2
         x: 0
@@ -208,14 +460,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a87559e7c99576445b4aea242ab9db3b
-      internalID: 1869713717
+      spriteID: 53630140f69efbe4bbc3368b5ed50f1e
+      internalID: -1954505156
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 6_Rodriguez-Rolon_ZBotIdle_5
+      name: 6_Rodriguez-Rolon_ZBotIdle_17
       rect:
         serializedVersion: 2
         x: 32
@@ -229,14 +481,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa187efe8f9bec54ca36aa41c273f628
-      internalID: -169927670
+      spriteID: 7f87700569c691b48add510763dae91a
+      internalID: -2105456085
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 6_Rodriguez-Rolon_ZBotIdle_6
+      name: 6_Rodriguez-Rolon_ZBotIdle_18
       rect:
         serializedVersion: 2
         x: 64
@@ -250,14 +502,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00b22cfb97ff8b742bcfe7c1b018c52a
-      internalID: 225963936
+      spriteID: 9052d5e824bd552459f2c13f769e168f
+      internalID: 371814817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 6_Rodriguez-Rolon_ZBotIdle_7
+      name: 6_Rodriguez-Rolon_ZBotIdle_19
       rect:
         serializedVersion: 2
         x: 96
@@ -271,14 +523,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0183b0f5fa5e374dac5ef2bf9e414ca
-      internalID: 1276658024
+      spriteID: 3a0933208c3d82c4b92c9785e1a586b2
+      internalID: 872074470
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 6_Rodriguez-Rolon_ZBotIdle_8
+      name: 6_Rodriguez-Rolon_ZBotIdle_20
       rect:
         serializedVersion: 2
         x: 0
@@ -292,14 +544,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff24fea61ef23844db4764519303dc1b
-      internalID: -719360686
+      spriteID: bcc8ef4ef4b77694597795d145b68b64
+      internalID: -1157573691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 6_Rodriguez-Rolon_ZBotIdle_9
+      name: 6_Rodriguez-Rolon_ZBotIdle_21
       rect:
         serializedVersion: 2
         x: 32
@@ -313,14 +565,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62540b1d82c889746b7aa1804de9bfd3
-      internalID: -1272202100
+      spriteID: 8bfe4d7e977a7ae45af7db13d3c5c3d3
+      internalID: 775418837
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 6_Rodriguez-Rolon_ZBotIdle_10
+      name: 6_Rodriguez-Rolon_ZBotIdle_22
       rect:
         serializedVersion: 2
         x: 64
@@ -334,14 +586,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e39b3891fd7ea542a1cde4091f8f893
-      internalID: 1961333813
+      spriteID: fd16457db27b2a04cbb300216f55abc0
+      internalID: 588992546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 6_Rodriguez-Rolon_ZBotIdle_11
+      name: 6_Rodriguez-Rolon_ZBotIdle_23
       rect:
         serializedVersion: 2
         x: 96
@@ -355,14 +607,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0735dfe43a19424d8ae0b7c48aca9a2
-      internalID: -1348217650
+      spriteID: 3fbb785b6fa17f7418d7e09833f479db
+      internalID: -459106161
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 6_Rodriguez-Rolon_ZBotIdle_12
+      name: 6_Rodriguez-Rolon_ZBotIdle_24
       rect:
         serializedVersion: 2
         x: 0
@@ -376,8 +628,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bccba8595afbfff4097289c31e8cd14f
-      internalID: -181615189
+      spriteID: 19773592c16a40e4a9c6213ca3b28e4c
+      internalID: -1504686511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6_Rodriguez-Rolon_ZBotIdle_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c948d28b4bb76b4494b78b0c3b06700
+      internalID: -212333011
       vertices: []
       indices: 
       edges: []
@@ -393,19 +666,32 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      6_Rodriguez-Rolon_ZBotIdle_0: -1867309070
-      6_Rodriguez-Rolon_ZBotIdle_1: -1771481400
-      6_Rodriguez-Rolon_ZBotIdle_10: 1961333813
-      6_Rodriguez-Rolon_ZBotIdle_11: -1348217650
-      6_Rodriguez-Rolon_ZBotIdle_12: -181615189
-      6_Rodriguez-Rolon_ZBotIdle_2: 769174153
-      6_Rodriguez-Rolon_ZBotIdle_3: -227737913
-      6_Rodriguez-Rolon_ZBotIdle_4: 1869713717
-      6_Rodriguez-Rolon_ZBotIdle_5: -169927670
-      6_Rodriguez-Rolon_ZBotIdle_6: 225963936
-      6_Rodriguez-Rolon_ZBotIdle_7: 1276658024
-      6_Rodriguez-Rolon_ZBotIdle_8: -719360686
-      6_Rodriguez-Rolon_ZBotIdle_9: -1272202100
+      6_Rodriguez-Rolon_ZBotIdle_0: -691405900
+      6_Rodriguez-Rolon_ZBotIdle_1: -119718767
+      6_Rodriguez-Rolon_ZBotIdle_10: 909408212
+      6_Rodriguez-Rolon_ZBotIdle_11: -1270682550
+      6_Rodriguez-Rolon_ZBotIdle_12: -293761939
+      6_Rodriguez-Rolon_ZBotIdle_13: 1154393275
+      6_Rodriguez-Rolon_ZBotIdle_14: 1577037998
+      6_Rodriguez-Rolon_ZBotIdle_15: -80588964
+      6_Rodriguez-Rolon_ZBotIdle_16: -1954505156
+      6_Rodriguez-Rolon_ZBotIdle_17: -2105456085
+      6_Rodriguez-Rolon_ZBotIdle_18: 371814817
+      6_Rodriguez-Rolon_ZBotIdle_19: 872074470
+      6_Rodriguez-Rolon_ZBotIdle_2: -1282304686
+      6_Rodriguez-Rolon_ZBotIdle_20: -1157573691
+      6_Rodriguez-Rolon_ZBotIdle_21: 775418837
+      6_Rodriguez-Rolon_ZBotIdle_22: 588992546
+      6_Rodriguez-Rolon_ZBotIdle_23: -459106161
+      6_Rodriguez-Rolon_ZBotIdle_24: -1504686511
+      6_Rodriguez-Rolon_ZBotIdle_25: -212333011
+      6_Rodriguez-Rolon_ZBotIdle_3: -1339138404
+      6_Rodriguez-Rolon_ZBotIdle_4: -738602286
+      6_Rodriguez-Rolon_ZBotIdle_5: -1183945422
+      6_Rodriguez-Rolon_ZBotIdle_6: 1285982289
+      6_Rodriguez-Rolon_ZBotIdle_7: -1057182826
+      6_Rodriguez-Rolon_ZBotIdle_8: -29097128
+      6_Rodriguez-Rolon_ZBotIdle_9: 84459892
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
