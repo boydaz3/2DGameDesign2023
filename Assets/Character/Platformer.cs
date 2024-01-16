@@ -6,6 +6,7 @@ using UnityEngine;
 public class Platformer : MonoBehaviour
 {
     public float moveSpeed = 6.0f;
+    public float sprintSpeed = 8.5f;
     public float maxVelocity = 12.0f;
     public float jumpForce = 21.0f;
 
@@ -48,6 +49,11 @@ public class Platformer : MonoBehaviour
     {
         float horizontalInput = Input.GetAxis("Horizontal");
         Vector2 moveVector = new Vector2(horizontalInput * moveSpeed, rb.velocity.y);
+        if(Input.GetKey(KeyCode.LeftShift)){
+            moveSpeed = sprintSpeed;
+        } else {
+            moveSpeed = 6.0f;
+        }
         if(rb.velocity.magnitude > maxVelocity){
             rb.velocity = Vector2.ClampMagnitude(rb.velocity, maxVelocity);
         }

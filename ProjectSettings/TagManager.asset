@@ -9,6 +9,8 @@ TagManager:
   - Enemy
   - DeathZone
   - Flag
+  - Coin
+  - Heart
   layers:
   - Default
   - TransparentFX
