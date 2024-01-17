@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerRespawn : MonoBehaviour
 {
+    public static int playerLives = 3;
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.CompareTag("Enemy"))
@@ -12,6 +13,21 @@ public class PlayerRespawn : MonoBehaviour
             if(!IsCollisionFromTop(collision))
             {
             RestartLevel();
+            }
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.CompareTag("DeathZone"))
+        {
+            playerLives--;
+            if(playerLives > 0)
+            {
+                Debug.Log(playerLives + "Lives left");
+                RestartLevel();
+            }else
+            {
+                Debug.Log("Game Over");
             }
         }
     }

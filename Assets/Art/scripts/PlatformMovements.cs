@@ -13,16 +13,19 @@ public class PlatformerMovements : MonoBehaviour
     public Animator animator;
 
     float horizontalMovement = 0f;
+
+    public float maxVelocity = 10f;
     // Start is called before the first frame update
     void Start()
     {
-       rb = GetComponent<Rigidbody2D>(); 
+       rb = GetComponent<Rigidbody2D>();
+       Vector3 scale = transform.localScale;
     }
 
     // Update is called once per frame
     void Update()
     {
-        //code for horiznotal movemnt
+        //code for horiznotal movement
         float horizontalInput = Input.GetAxis("Horizontal");
         horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed;
         Vector2 moveVector = new Vector2(horizontalInput * moveSpeed, rb.velocity.y);
@@ -33,6 +36,7 @@ public class PlatformerMovements : MonoBehaviour
         if(Input.GetButtonDown("Jump") && !isJumping){
             moveVector.y = jumpForce;
             isJumping = true; 
+            animator.SetBool("IsJumping" , true);
         }
 
         rb.velocity = moveVector;
@@ -43,11 +47,16 @@ public class PlatformerMovements : MonoBehaviour
     } else if(horizontalInput > 0){
         transform.localScale = new Vector3(1, 1, 1);
     }
+
+    if(rb.velocity.magnitude > maxVelocity)
+    {
+        rb.velocity = Vector2.ClampMagnitude(rb.velocity, maxVelocity);
+    }
  }
 
-    private void OnCollision2D(Collision2D collision){
-        if(collision.gameObject.CompareTag("Gound")){
+    public void OnCollisionEnter2D(Collision2D collision){
+        if(collision.gameObject.CompareTag("Ground")){
             isJumping = false;
-        }    
+        }   animator.SetBool("IsJumping" , false); 
     }
 }
