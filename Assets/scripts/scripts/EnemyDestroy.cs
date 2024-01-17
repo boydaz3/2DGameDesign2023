@@ -15,7 +15,7 @@ private void OnCollisionEnter2D(Collision2D collision)
         if(collision.gameObject.tag == "Player")
         {
             enemyAnimator.SetTrigger("Destroy");
-            Invoke("DestroyEnemy", 1f);
+            Invoke("DestroyEnemy", .4f);
         }
     } 
 

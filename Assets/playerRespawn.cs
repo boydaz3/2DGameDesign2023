@@ -11,10 +11,9 @@ public class playerRespawn : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Enemy"))
         {
-            if(!IsCollisionFromTop(collision))
-            {
+          
            RestartLevel();
-            }
+            
         }
 
     }
@@ -40,10 +39,7 @@ public class playerRespawn : MonoBehaviour
        }
     }
 
-    private bool IsCollisionFromTop(Collision2D collision)
-    {
-        return transform.position.y > collision.gameObject.transform.position.y;
-    }
+
 
     private void RestartLevel()
     {
