@@ -9,6 +9,7 @@ TagManager:
   - CaveOpening
   - Wheel
   - FloatingPlatform
+  - JumpBoost
   layers:
   - Default
   - TransparentFX

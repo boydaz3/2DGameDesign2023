@@ -17,6 +17,7 @@ using UnityEngine;
     
     public float speed = 14f;
     public float jumpSpeed = 6.5f;
+    public float boostJumpSpeed = 40f;
 
     public float velocityCap = 15f;
  
@@ -171,9 +172,16 @@ using UnityEngine;
                 return true;
             }
         } 
-        return rigidBody.velocity.y < 0.2f &&
-               rigidBody.velocity.y > -0.2f &&
+        return rigidBody.velocity.y < 4f &&
+               rigidBody.velocity.y > -4f &&
                collidingWith;
+    }
+
+    public void Boost()
+    {
+        animator.SetTrigger("Jump");
+        particleSystemJump.Emit(emitParams, 10);
+        rigidBody.AddForce(Vector2.up * boostJumpSpeed, ForceMode2D.Impulse);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

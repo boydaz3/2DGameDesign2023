@@ -43,6 +43,10 @@ public class PlayerCollisions : MonoBehaviour
                     DecrementLives();
                 }
                 break;
+            case "JumpBoost":
+                collision.gameObject.GetComponent<Animator>().SetTrigger("OnCollision");
+                gameObject.GetComponent<Movement>().Boost();
+                break;
         }
     }
     
@@ -56,7 +60,7 @@ public class PlayerCollisions : MonoBehaviour
                 RestartLevel();
                 break;
             case "FinishFlag":
-                SceneManager.LoadScene("Win");
+                collision.gameObject.GetComponent<DoorInteraction>().onTouch();
                 break;
             case "CaveOpening":
                 CaveOpening.onEnter();
@@ -71,6 +75,9 @@ public class PlayerCollisions : MonoBehaviour
         {
             case "CaveOpening":
                 CaveOpening.onExit();
+                break;
+            case "FinishFlag":
+                collision.gameObject.GetComponent<DoorInteraction>().onUnTouch();
                 break;
         }
     }
