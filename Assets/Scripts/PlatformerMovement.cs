@@ -11,6 +11,8 @@ public class PlatformerMovement : MonoBehaviour
 
     public Animator animator;
 
+    public float maxVelocity = 10f;
+
     float horizontalMovement = 0f;
     // Start is called before the first frame update
     void Start()
@@ -42,10 +44,16 @@ public class PlatformerMovement : MonoBehaviour
         } else if(horizontalInput > 0){
             transform.localScale = new Vector3(0.25f, 0.25f, 0.25f);
         }
+
+        if(rb.velocity.magnitude > maxVelocity)
+        {
+            rb.velocity = Vector2.ClampMagnitude(rb.velocity, maxVelocity);
+        }
     }
 
     public void OnCollisionEnter2D(Collision2D collision){
-        if(collision.gameObject.CompareTag("Ground")){
+        if(collision.gameObject.CompareTag("Ground"))
+        {
             isJumping = false;
             animator.SetBool("isJumping", false);
         }
