@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - DeathZone
   - Goal
+  - Goal 1
   layers:
   - Default
   - TransparentFX

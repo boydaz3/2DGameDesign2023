@@ -30,13 +30,21 @@ public class playerRespawn : MonoBehaviour
         }else
         {
             Debug.Log("Game Over");
+            {
+                SceneManager.LoadScene("You Suck!");
+            }
         }
        }
-       if(collision.gameObject.CompareTag("Goal"))
+       if(collision.gameObject.CompareTag("Goal 1"))
        {
         Debug.Log("player has reached the Goal");
-        SceneManager.LoadScene("To Ezz");
+        SceneManager.LoadScene("Level 2");
        }
+        if(collision.gameObject.CompareTag("Goal"))
+        {
+          Debug.Log("player has reached the Goal");
+        SceneManager.LoadScene("To Ezz");  
+        }
     }
 
 
