@@ -32,7 +32,13 @@ public class playerRespawn : MonoBehaviour
                 Debug.Log("Game Over");
             }
         }
-            if(collision.gameObject.CompareTag("Flag"))
+              if(collision.gameObject.CompareTag("Flag"))
+              {
+                Debug.Log("Player has reached the flag");
+                SceneManager.LoadScene("Level2");
+              }
+
+            if(collision.gameObject.CompareTag("endFlag"))
             {
                 Debug.Log("Player has reached the flag");
                 SceneManager.LoadScene("WinningScreen");
