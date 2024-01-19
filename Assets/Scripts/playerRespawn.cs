@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class playerRespawn : MonoBehaviour
 {
+    public static int playerLives = 3;
     private void OnCollisionStay2D(Collision2D collision)
     {
         if(collision.gameObject.CompareTag("Enemy"))
@@ -39,24 +40,18 @@ public class playerRespawn : MonoBehaviour
                 SceneManager.LoadScene("Die Screen");
             }
         }
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision) //player object is colliding with a collider that is set as a trigger
-    {
-        if (collision.gameObject.CompareTag("DeathZone"))
+        if(collision.gameObject.CompareTag("Goal"))
         {
-            playerLives--; //reduce player lives by 1
-            if(playerLives > 0)
-            {
-                Debug.Log(playerLives + " lives left");
-                RestartLevel();
-            }else
-            {
-                Debug.Log("Game Over");
-            }
+            Debug.Log("Player has finished level 1");
+            SceneManager.LoadScene("Level2");
+        }
+        if (collision.gameObject.CompareTag("endGoal"))
+        {
+            Debug.Log("Player has finished level 2");
+            SceneManager.LoadScene("Win Screen");
         }
     }
-
+    
     private bool isCollisionFromTop(Collision2D collision)
     {
         return transform.position.y > collision.gameObject.transform.position.y+0.4f;
