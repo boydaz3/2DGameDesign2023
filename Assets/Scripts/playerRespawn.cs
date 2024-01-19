@@ -21,7 +21,7 @@ public class playerRespawn : MonoBehaviour
                     RestartLevel();
                 }else
                 {
-                    Debug.Log("Game Over");
+                    SceneManager.LoadScene("Die Screen");
                 }
             }
         }
@@ -38,7 +38,7 @@ public class playerRespawn : MonoBehaviour
                 RestartLevel();
             }else
             {
-                Debug.Log("Game Over");
+                SceneManager.LoadScene("Die Screen");
             }
         }
     }

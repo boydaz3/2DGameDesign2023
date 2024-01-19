@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class StartMenu : MonoBehaviour
+public class DieMenu : MonoBehaviour
 {
+    // Start is called before the first frame update
     public void StartGame()
     {
-        playerRespawn.playerLives = 3;
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("Start Screen");
     }
 }
