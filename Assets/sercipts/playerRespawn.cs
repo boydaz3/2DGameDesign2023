@@ -30,6 +30,7 @@ public class playerRespawn : MonoBehaviour
             }else
             {
                 Debug.Log("Game Over");
+                SceneManager.LoadScene("endScreen");
             }
         }
               if(collision.gameObject.CompareTag("Flag"))
