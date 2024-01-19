@@ -11,6 +11,8 @@ public class PlatformerMovement : MonoBehaviour
 
     public Animator animator;
 
+    public float maxVelocity = 10f;
+
     float horizontalMovement = 0f;
 
     public float maxVelocity = 10f;
@@ -53,7 +55,8 @@ public class PlatformerMovement : MonoBehaviour
     }
 
     public void OnCollisionEnter2D(Collision2D collision){
-        if(collision.gameObject.CompareTag("Ground")){
+        if(collision.gameObject.CompareTag("Ground"))
+        {
             isJumping = false;
             animator.SetBool("isJumping", false);
         }
