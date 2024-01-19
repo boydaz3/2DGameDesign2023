@@ -9,5 +9,8 @@ public class Star : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
     }
+  
 
-}
+ 
+     public static int playerlives = 3;
+ }

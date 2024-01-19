@@ -29,8 +29,8 @@ public class Respawn : MonoBehaviour
             }else
             {
                 SceneManager.LoadScene("game over");
+                playerLives = 3;
             }
-
         }
         {
     if (collision.gameObject.CompareTag("Flag"))
