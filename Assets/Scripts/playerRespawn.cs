@@ -2,21 +2,27 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class playerRespawn : MonoBehaviour
 {
     public static int playerLives = 3;
+
+    public TMP_Text LiveCounter;
+
+    void Update()
+    {
+     LiveCounter.SetText("Lives: " + playerLives);
+    }
     private void OnCollisionStay2D(Collision2D collision)
     {
         if(collision.gameObject.CompareTag("Enemy"))
         {
-            Debug.Log(isCollisionFromTop(collision));
             if (!isCollisionFromTop(collision))
             {
                 playerLives--;
                 if (playerLives > 0)
                 {    
-                    Debug.Log(playerLives + " lives left");
                     RestartLevel();
                 }else
                 {
@@ -33,7 +39,6 @@ public class playerRespawn : MonoBehaviour
             playerLives--; //reduce player lives by 1
             if(playerLives > 0)
             {
-                Debug.Log(playerLives + " lives left");
                 RestartLevel();
             }else
             {
@@ -42,12 +47,10 @@ public class playerRespawn : MonoBehaviour
         }
         if(collision.gameObject.CompareTag("Goal"))
         {
-            Debug.Log("Player has finished level 1");
             SceneManager.LoadScene("Level2");
         }
         if (collision.gameObject.CompareTag("endGoal"))
         {
-            Debug.Log("Player has finished level 2");
             SceneManager.LoadScene("Win Screen");
         }
     }

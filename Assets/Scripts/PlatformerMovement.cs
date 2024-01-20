@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class PlatformerMovement : MonoBehaviour
 {
     public float moveSpeed = 5f;
@@ -10,6 +9,8 @@ public class PlatformerMovement : MonoBehaviour
     private Rigidbody2D rb;
 
     public Animator animator;
+
+    public float hi = 1023f;
 
     public float maxVelocity = 10f;
 

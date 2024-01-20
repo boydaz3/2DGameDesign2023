@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class DieMenu : MonoBehaviour
+public class DieorWinMenu : MonoBehaviour
 {
     // Start is called before the first frame update
     public void StartGame()
