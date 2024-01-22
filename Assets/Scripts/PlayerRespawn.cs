@@ -35,6 +35,14 @@ public class PlayerRespawn : MonoBehaviour
         if (collision.gameObject.CompareTag("Goal"))
         {
             Debug.Log("Player has reached the flag");
+            SceneManager.LoadScene("Level 2");
+        }
+        if (collision.gameObject.CompareTag("Goal"))
+        {
+            SceneManager.LoadScene("Winscreen");
+        }
+        if (collision.gameObject.CompareTag("Goal 2"))
+        {
             SceneManager.LoadScene("Start screen");
         }
     }
