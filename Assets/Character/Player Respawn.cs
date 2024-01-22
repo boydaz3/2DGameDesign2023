@@ -1,40 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI; // Import the UI namespace
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class PlayerRespawn : MonoBehaviour
 {
     public static int playerLives = 3;
-    public Sprite heartSprite; // Reference to the heart sprite
-    public Transform heartsParent; // The parent object for the hearts
-    private List<Image> heartsList = new List<Image>();
+    public HeartsUI heartsUI;
 
     private void Start()
     {
-        // Initialize hearts based on the number of starting lives
-        InitializeHearts();
-    }
-
-    private void InitializeHearts()
-    {
-        for (int i = 0; i < playerLives; i++)
+        // Assuming you have a reference to the HeartsUI component
+        heartsUI = FindFirstObjectByType<HeartsUI>();
+        if (heartsUI != null)
         {
-            Debug.Log(playerLives);
-            Image heart = new GameObject("Heart" + i, typeof(Image)).GetComponent<Image>();
-            heart.transform.SetParent(heartsParent);
-            heart.sprite = heartSprite;
-            heartsList.Add(heart);
-        }
-    }
-
-    private void UpdateHearts()
-    {
-        // Update the displayed hearts based on the current number of lives
-        for (int i = 0; i < heartsList.Count; i++)
-        {
-            heartsList[i].enabled = i < playerLives;
+            heartsUI.UpdateHearts(playerLives);
         }
     }
 
@@ -43,11 +24,10 @@ public class PlayerRespawn : MonoBehaviour
         if (collision.gameObject.CompareTag("Enemy"))
         {
             playerLives--;
-            UpdateHearts();
-            if (playerLives > 0)
+            if (heartsUI != null)
             {
                 Debug.Log(playerLives + " lives left");
-                RestartLevel();
+                heartsUI.UpdateHearts(playerLives);
             }
             else
             {
@@ -62,7 +42,11 @@ public class PlayerRespawn : MonoBehaviour
         if (collision.gameObject.CompareTag("DeathZone"))
         {
             playerLives--;
-            UpdateHearts();
+            if (heartsUI != null)
+            {
+                Debug.Log(playerLives + " lives left");
+                heartsUI.UpdateHearts(playerLives);
+            }
             if (playerLives > 0)
             {
                 RestartLevel();
@@ -73,7 +57,6 @@ public class PlayerRespawn : MonoBehaviour
                 playerLives = 3;
             }
         }
-
     }
 
     private void RestartLevel()
